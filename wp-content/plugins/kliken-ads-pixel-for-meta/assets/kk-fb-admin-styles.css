@@ -1,0 +1,379 @@
+/* UNIVERSAL */
+.kk-wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #101517;
+    margin-top: 20px;
+}
+
+.kk-wrapper .container {
+    background-color: #fff;
+    border: 1px solid rgba(16,21,23, .20);
+    border-radius: 4px;
+}
+
+.kk-wrapper .flex {
+    display: flex;
+}
+
+.kk-wrapper .align-center {
+    align-items: center;
+}
+
+/* SPINNER KEYFRAME */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* GET STARTED*/
+.kk-wrapper h1.header {
+    font-size: 58px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+.kk-wrapper h1.header span {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+    margin-top: 15px;
+    margin-bottom: 34px;
+    letter-spacing: 0;
+}
+
+.kk-wrapper  h1.header span svg {
+    margin-left: 7px;
+}
+
+.kk-wrapper li {
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.kk-wrapper  li svg {
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.kk-wrapper .container.getstarted {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,.175);
+    width: 93%;
+    max-width: 909px;
+    padding: 19px 21px 36px;
+    flex-wrap: wrap;
+}
+
+.kk-wrapper .content{
+    flex-basis: 50%;
+}
+
+.kk-wrapper .image {
+    flex-basis: 43%;
+    top: 4rem;
+    position: relative;
+}
+
+.kk-wrapper .primary-button {
+    background-color: #0866FF;
+    color:#fff;
+    border-radius: 4px;
+    border: none;
+    height: 60px;
+    padding: 0 20px;
+    margin-top: 24px;
+    font-size: 17px;
+    transition: all .2s linear;
+}
+
+
+.kk-wrapper .primary-button:hover,
+.kk-wrapper .primary-button:focus {
+    background-color: #005EF7;
+    cursor: pointer;
+}
+
+.kk-wrapper .primary-button svg {
+    display: none;
+    margin-left: 10px;
+}
+
+.kk-wrapper .primary-button.loading svg {
+    display: block;
+    animation: rotate 1s linear infinite;
+}
+
+
+/* SETTINGS */
+.kk-wrapper .container.settings{
+    width: 100%;
+    max-width: 626px;
+    padding: 5px 24px 30px 21px;
+}
+
+.kk-wrapper .settings-header {
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.kk-wrapper .settings-header h2 {
+    font-size:24px;
+    font-weight: 400;
+}
+
+.kk-wrapper .settings-header a {
+    color: #0866FF;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all .2s linear;
+}
+
+.kk-wrapper .settings-header a:hover {
+    text-decoration: underline;
+
+}
+
+.kk-wrapper .settings-form fieldset {
+    border: 1px solid #D7D9DC;
+    border-radius: 4px;
+}
+
+.kk-wrapper .settings-form fieldset>div {
+    padding: 18px 20px;
+}
+
+.kk-wrapper .settings-form fieldset>div.fb-token {
+    border-bottom: none;
+}
+
+.kk-wrapper .settings-form label {
+    flex-basis: 36%;
+    font-size: 15px;
+    margin-right: 2%;
+}
+
+
+.kk-wrapper .settings-form input[type=text] {
+    flex-basis: 62%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.kk-wrapper .settings-form input[type=text]:focus {
+    border: 1px solid #0866FF;
+    box-shadow: 0 0 0 4px rgba(8,102,255, .25);
+}
+
+.kk-wrapper .settings-form input[type=text]:disabled {
+    border: none;
+    box-shadow: none;
+}
+
+.kk-wrapper .settings-form .edit-settings {
+    font-size: 18px;
+    background-color: #101517;
+    width: 100%;
+    min-height: 60px;
+    border: none;
+    color: #fff;
+    margin-top: 7px;
+    transition: all .2s linear;
+    border-radius: 4px;
+}
+
+.kk-wrapper .settings-form .edit-settings:hover,
+.kk-wrapper .settings-form .edit-settings:focus {
+    background-color: rgba(16,21,23, .85);
+    cursor: pointer;
+}
+
+.kk-wrapper .settings-form .cancel {
+    color: #0866FF;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    margin-top: 12px;
+    display: none;
+}
+
+/* IS EDITING SETTINGS */
+.kk-wrapper .is-editing .settings-form input[type=text] {
+    border: 1px solid #CED4DA;
+}
+
+.kk-wrapper .is-editing .settings-form .edit-settings {
+    background: #0866FF;
+}
+
+.kk-wrapper .is-editing .settings-form .edit-settings:hover,
+.kk-wrapper .is-editing .settings-form .edit-settings:focus {
+    background-color: rgba(8,102,255, .8);
+}
+
+.kk-wrapper .is-editing .settings-form .edit-settings.edit {
+    display: none;
+}
+
+.kk-wrapper .settings-form .edit-settings.save {
+    background-color: #0866FF;
+    display: none;
+}
+
+.kk-wrapper .settings.is-editing .settings-form .edit-settings:hover,
+.kk-wrapper .settings.is-editing .settings-form .edit-settings:focus {
+    background-color: rgba(8,102,255, .85);
+    cursor: pointer;
+}
+
+
+.kk-wrapper .is-editing .settings-form .edit-settings.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kk-wrapper .is-editing .settings-form .edit-settings.save svg {
+    display: none;
+}
+
+.kk-wrapper .is-editing .settings-form .cancel {
+    display: block;
+}
+
+.kk-wrapper .is-editing .settings-form .cancel:hover,
+.kk-wrapper .is-editing .settings-form .cancel:focus {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.kk-wrapper .settings.is-editing .primary-button,
+.kk-wrapper .settings.is-saving .primary-button{
+    display: none;
+}
+
+
+/* IS SAVING SETTINGS */
+
+.kk-wrapper .is-saving .settings-form .edit-settings.edit {
+    display: none;
+}
+
+.kk-wrapper .is-saving .settings-form .edit-settings.save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(8,102,255, .8);
+}
+
+.kk-wrapper .is-saving .settings-form .edit-settings.save:disabled {
+    cursor: not-allowed;
+}
+
+.kk-wrapper .is-saving .settings-form .edit-settings.save span {
+    display: none;
+}
+
+.kk-wrapper .is-saving .settings-form .edit-settings.save svg {
+    display: block;
+    animation: rotate 1s linear infinite;
+    transform-origin: center;
+}
+
+.kk-wrapper .is-saving .settings-form .cancel {
+    display: none;
+}
+
+/* CONNECTED */
+
+.kk-wrapper .connected {
+    width: 100%;
+    max-width: 673px;
+}
+
+.kk-wrapper .connected-cards .container {
+    margin-bottom: 10px;
+}
+
+.kk-wrapper h2.connected-header {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.kk-wrapper h2.connected-header svg {
+    margin-right: 12px;
+    transition: all .2 linear;
+}
+
+.kk-wrapper .connected-cards a {
+    text-decoration: none;
+    color: #101517;
+    padding: 20px;
+    transition: all .2s linear;
+    border: 1px solid transparent;
+}
+
+.kk-wrapper .connected-cards a:hover,
+.kk-wrapper .connected-cards a:focus {
+    color: #0866FF;
+    border: 1px solid #0866FF;
+    box-shadow: 0 0 0 4px rgba(8,102,255, .25);
+}
+
+.kk-wrapper .connected-icon svg{
+    fill: #101517;
+    transition: all .2s linear;
+}
+
+.kk-wrapper .connected-cards a:hover svg,
+.kk-wrapper .connected-cards a:focus svg {
+    fill: #0866FF;
+}
+
+.kk-wrapper .connected-heading {
+    font-size: 17px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.kk-wrapper .connected-text {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.kk-wrapper .connected-content {
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+/* Mobile */
+@media screen and (max-width: 782px) {
+    .kk-wrapper {
+        margin-top: 10px
+    }
+    .kk-wrapper .image {
+        top: 0;
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .kk-wrapper .container.getstarted {
+        width: 91%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .kk-wrapper .container.getstarted {
+        width: 89%;
+    }
+}

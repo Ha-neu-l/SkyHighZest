@@ -1,0 +1,111 @@
+
+WpOrg\Requests\Exception: Provided string is too long in C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php:93
+Stack trace:
+#0 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php(68): WpOrg\Requests\IdnaEncoder::to_ascii('localhost/My%20...')
+#1 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(27): WpOrg\Requests\IdnaEncoder::encode('localhost/My%20...')
+#2 [internal function]: Elementor\Core\Utils\Str::Elementor\Core\Utils\{closure}(Array)
+#3 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(19): preg_replace_callback('/(https?:\\/\\/)(...', Object(Closure), 'http://localhos...')
+#4 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(259): Elementor\Core\Utils\Str::encode_idn_url('http://localhos...')
+#5 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(68): Elementor\Core\Common\Modules\Connect\Apps\Base_App->get_admin_url('authorize', Array)
+#6 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(114): Elementor\App\Modules\KitLibrary\Module->set_kit_library_settings()
+#7 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\App\Modules\KitLibrary\Module->Elementor\App\Modules\KitLibrary\{closure}('')
+#8 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\includes\plugin.php(684): do_action('elementor/init')
+#11 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#12 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-settings.php(704): do_action('init')
+#15 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-config.php(102): require_once('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-load.php(50): require_once('C:\\wamp64\\www\\M...')
+#17 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\M...')
+#18 {main}
+There was an error on website: Uncaught Exception
+There was an error on website: Uncaught Exception
+WpOrg\Requests\Exception: Provided string is too long in C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php:93
+Stack trace:
+#0 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php(68): WpOrg\Requests\IdnaEncoder::to_ascii('localhost/My%20...')
+#1 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(27): WpOrg\Requests\IdnaEncoder::encode('localhost/My%20...')
+#2 [internal function]: Elementor\Core\Utils\Str::Elementor\Core\Utils\{closure}(Array)
+#3 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(19): preg_replace_callback('/(https?:\\/\\/)(...', Object(Closure), 'http://localhos...')
+#4 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(259): Elementor\Core\Utils\Str::encode_idn_url('http://localhos...')
+#5 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(68): Elementor\Core\Common\Modules\Connect\Apps\Base_App->get_admin_url('authorize', Array)
+#6 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(114): Elementor\App\Modules\KitLibrary\Module->set_kit_library_settings()
+#7 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\App\Modules\KitLibrary\Module->Elementor\App\Modules\KitLibrary\{closure}('')
+#8 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\includes\plugin.php(684): do_action('elementor/init')
+#11 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#12 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-settings.php(704): do_action('init')
+#15 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-config.php(102): require_once('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-load.php(50): require_once('C:\\wamp64\\www\\M...')
+#17 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\M...')
+#18 {main}
+There was an error on website: Uncaught Exception
+WpOrg\Requests\Exception: Provided string is too long in C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php:93
+Stack trace:
+#0 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php(68): WpOrg\Requests\IdnaEncoder::to_ascii('localhost/My%20...')
+#1 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(27): WpOrg\Requests\IdnaEncoder::encode('localhost/My%20...')
+#2 [internal function]: Elementor\Core\Utils\Str::Elementor\Core\Utils\{closure}(Array)
+#3 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(19): preg_replace_callback('/(https?:\\/\\/)(...', Object(Closure), 'http://localhos...')
+#4 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(259): Elementor\Core\Utils\Str::encode_idn_url('http://localhos...')
+#5 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(68): Elementor\Core\Common\Modules\Connect\Apps\Base_App->get_admin_url('authorize', Array)
+#6 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(114): Elementor\App\Modules\KitLibrary\Module->set_kit_library_settings()
+#7 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\App\Modules\KitLibrary\Module->Elementor\App\Modules\KitLibrary\{closure}('')
+#8 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\includes\plugin.php(684): do_action('elementor/init')
+#11 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#12 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-settings.php(704): do_action('init')
+#15 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-config.php(102): require_once('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-load.php(50): require_once('C:\\wamp64\\www\\M...')
+#17 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\M...')
+#18 {main}
+There was an error on website: Uncaught Exception
+WpOrg\Requests\Exception: Provided string is too long in C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php:93
+Stack trace:
+#0 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php(68): WpOrg\Requests\IdnaEncoder::to_ascii('localhost/My%20...')
+#1 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(27): WpOrg\Requests\IdnaEncoder::encode('localhost/My%20...')
+#2 [internal function]: Elementor\Core\Utils\Str::Elementor\Core\Utils\{closure}(Array)
+#3 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(19): preg_replace_callback('/(https?:\\/\\/)(...', Object(Closure), 'http://localhos...')
+#4 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(259): Elementor\Core\Utils\Str::encode_idn_url('http://localhos...')
+#5 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(68): Elementor\Core\Common\Modules\Connect\Apps\Base_App->get_admin_url('authorize', Array)
+#6 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(114): Elementor\App\Modules\KitLibrary\Module->set_kit_library_settings()
+#7 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\App\Modules\KitLibrary\Module->Elementor\App\Modules\KitLibrary\{closure}('')
+#8 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\includes\plugin.php(684): do_action('elementor/init')
+#11 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#12 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-settings.php(704): do_action('init')
+#15 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-config.php(102): require_once('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-load.php(50): require_once('C:\\wamp64\\www\\M...')
+#17 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\M...')
+#18 {main}
+There was an error on website: Uncaught Exception
+WpOrg\Requests\Exception: Provided string is too long in C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php:93
+Stack trace:
+#0 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\Requests\src\IdnaEncoder.php(68): WpOrg\Requests\IdnaEncoder::to_ascii('localhost/My%20...')
+#1 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(27): WpOrg\Requests\IdnaEncoder::encode('localhost/My%20...')
+#2 [internal function]: Elementor\Core\Utils\Str::Elementor\Core\Utils\{closure}(Array)
+#3 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\utils\str.php(19): preg_replace_callback('/(https?:\\/\\/)(...', Object(Closure), 'http://localhos...')
+#4 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\core\common\modules\connect\apps\base-app.php(259): Elementor\Core\Utils\Str::encode_idn_url('http://localhos...')
+#5 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(68): Elementor\Core\Common\Modules\Connect\Apps\Base_App->get_admin_url('authorize', Array)
+#6 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\app\modules\kit-library\module.php(114): Elementor\App\Modules\KitLibrary\Module->set_kit_library_settings()
+#7 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\App\Modules\KitLibrary\Module->Elementor\App\Modules\KitLibrary\{closure}('')
+#8 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-content\plugins\elementor\includes\plugin.php(684): do_action('elementor/init')
+#11 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#12 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-settings.php(704): do_action('init')
+#15 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-config.php(102): require_once('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-load.php(50): require_once('C:\\wamp64\\www\\M...')
+#17 C:\wamp64\www\My Projects\Licence dExcellence ADIA\SkyHighZest\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\M...')
+#18 {main}

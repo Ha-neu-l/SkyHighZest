@@ -1,0 +1,33 @@
+{
+  "name": "kliken/kliken-ads-pixel-for-meta",
+  "description": "Kliken: Ads + Pixel for Meta",
+  "type": "wordpress-plugin",
+  "config": {
+    "optimize-autoloader": true,
+    "vendor-dir": "vendor",
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "require-dev": {
+    "digitalnature/php-ref": "dev-master",
+    "wp-coding-standards/wpcs": "^3.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "php-stubs/wordpress-stubs": "^6.4",
+    "php-stubs/woocommerce-stubs": "^8.7",
+    "symfony/polyfill-php73": "^1.22",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "woocommerce/woocommerce-sniffs": "^1.0"
+  },
+  "autoload": {
+    "classmap": ["classes/"]
+  },
+  "scripts": {
+    "install-codestandards": [
+      "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+    ]
+  }
+}

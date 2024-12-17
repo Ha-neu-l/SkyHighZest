@@ -1,0 +1,11 @@
+*** Kliken: Ads + Pixel for Meta changelog ***
+
+2024-11-20 - version 1.0.2
+* Updated help center links.
+
+2024-11-13 - version 1.0.1
+* Supports latest version of WordPress and WooCommerce.
+* Minor bugfix.
+
+2024-08-30 - version 1.0.0
+* Initial release

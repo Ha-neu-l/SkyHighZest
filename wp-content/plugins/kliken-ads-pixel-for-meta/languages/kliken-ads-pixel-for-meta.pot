@@ -1,0 +1,197 @@
+# Copyright (C) 2024 Kliken
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kliken: Ads + Pixel for Meta 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: SiteWit <wordpress@sitewit.com>\n"
+"Language-Team: SiteWit <wordpress@sitewit.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-29T20:27:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: kliken-ads-pixel-for-meta\n"
+
+#. Plugin Name of the plugin
+#. translators: Meta and Woo are brand names. Meta Pixel and Meta Ads are product names. Do not translate.
+#: kliken-ads-pixel-for-meta.php
+#: classes/class-helper.php:137
+#: classes/class-plugin.php:116
+#: classes/class-plugin.php:250
+#: classes/class-plugin.php:261
+#: classes/class-plugin.php:287
+#: classes/class-plugin.php:369
+#: classes/class-plugin.php:370
+#: classes/class-plugin.php:481
+msgid "Kliken: Ads + Pixel for Meta"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "https://woo.kliken.com/"
+msgstr ""
+
+#. Description of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "Kliken's all-in-one marketing platform helps business owners reach high-intent customers, surpass your competition and realize significant growth in sales, while decreasing conversion costs."
+msgstr ""
+
+#. Author of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "Kliken"
+msgstr ""
+
+#. Author URI of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "https://kliken.com/"
+msgstr ""
+
+#. translators: %s: Plugin name. Do not translate.
+#: classes/class-plugin.php:114
+msgid "%s plugin can only be called once."
+msgstr ""
+
+#: classes/class-plugin.php:181
+msgid "Dashboard"
+msgstr ""
+
+#: classes/class-plugin.php:184
+msgid "Support"
+msgstr ""
+
+#: classes/class-plugin.php:207
+msgid "This will dismiss the message permanently. Are you sure?"
+msgstr ""
+
+#. translators: %s: Plugin name. Do not translate.
+#: classes/class-plugin.php:249
+msgid "%s requires WooCommerce to be activated."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: Version number of WooCommerce required to run plugin. Do not translate.
+#: classes/class-plugin.php:260
+msgid "%1$s requires WooCommerce version %2$s or greater."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: Plugin name. Do not translate.
+#: classes/class-plugin.php:285
+msgid "An older version of \"%1$s\" plugin is active. For \"%2$s\" to work, please deactivate it, or update to latest version."
+msgstr ""
+
+#. translators: %s: Plugin name. %s: A hyperlink. Do not translate.
+#: classes/class-plugin.php:475
+msgid "<strong>%1$s plugin is almost ready.</strong> <a href=\"%2$s\">Click here</a> to get started."
+msgstr ""
+
+#: classes/class-rest-misc-controller.php:95
+#: classes/class-rest-misc-controller.php:115
+#: classes/class-rest-misc-controller.php:139
+#: classes/class-rest-misc-controller.php:192
+#: classes/class-rest-misc-controller.php:198
+msgid "Invalid Data."
+msgstr ""
+
+#: classes/class-rest-misc-controller.php:177
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s, %3$s: Hyperlinks. Meta, Pixel are brand names/products. Do not translate.
+#: classes/class-tracker.php:147
+msgid "You currently have %1$s installed which is using a different Meta Pixel. This may result in under reporting of conversions. Please consider updating the account settings to use the same Pixel in each app, or <a href=\"%2$s\">click here</a> to disable the %1$s app. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a>."
+msgstr ""
+
+#. translators: "Facebook Ads" is product name. Do not translate.
+#: pages/dashboard.php:28
+msgid "Facebook Ads campaigns"
+msgstr ""
+
+#: pages/dashboard.php:46
+msgid "Create new ad"
+msgstr ""
+
+#. translators: Facebook, Instagram, and Advantage+ are product names. Do not translate.
+#: pages/dashboard.php:51
+msgid "Launch new ad campaigns across Facebook and Instagram with Advantage+ for maximum reach and efficiency."
+msgstr ""
+
+#: pages/dashboard.php:72
+msgid "Manage ads"
+msgstr ""
+
+#: pages/dashboard.php:75
+msgid "Easily view and adjust your existing ads to optimize performance and maximize ROI."
+msgstr ""
+
+#: pages/dashboard.php:95
+msgid "Manage account"
+msgstr ""
+
+#: pages/dashboard.php:98
+msgid "Update your account settings, billing information, and preferences to keep everything running smoothly."
+msgstr ""
+
+#: pages/dashboard.php:108
+msgid "Advanced Settings"
+msgstr ""
+
+#: pages/dashboard.php:113
+msgid "Settings"
+msgstr ""
+
+#: pages/dashboard.php:116
+msgid "What are these options?"
+msgstr ""
+
+#: pages/dashboard.php:125
+msgid "Account Id"
+msgstr ""
+
+#: pages/dashboard.php:131
+msgid "Application Token"
+msgstr ""
+
+#. translators: Facebook is product name. Do not translate.
+#: pages/dashboard.php:140
+msgid "Facebook Verification Token"
+msgstr ""
+
+#: pages/dashboard.php:149
+msgid "Edit Settings"
+msgstr ""
+
+#: pages/dashboard.php:154
+msgid "Save Changes"
+msgstr ""
+
+#: pages/dashboard.php:172
+msgid "Authorize API Access"
+msgstr ""
+
+#: pages/getstarted.php:16
+msgid "Grow your business"
+msgstr ""
+
+#. translators: "Facebook Ads" is product name. Do not translate.
+#: pages/getstarted.php:20
+msgid "with Facebook Ads"
+msgstr ""
+
+#. translators: "Facebook Advantage+" is product name. Do not translate.
+#: pages/getstarted.php:47
+msgid "Effortless Facebook Advantage+ campaign creation"
+msgstr ""
+
+#. translators: Woo, or WooCommerce is product name. Do not translate.
+#: pages/getstarted.php:61
+msgid "Seamless integration with your Woo store"
+msgstr ""
+
+#: pages/getstarted.php:73
+msgid "Track ad performance, revenue, and sales with ease"
+msgstr ""
+
+#: pages/getstarted.php:123
+msgid "Get Started"
+msgstr ""
