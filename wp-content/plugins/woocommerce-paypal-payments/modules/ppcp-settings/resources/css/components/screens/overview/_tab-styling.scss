@@ -1,0 +1,121 @@
+.ppcp-r-styling {
+	display: flex;
+	border: 1px solid $color-gray-200;
+	border-radius: 8px;
+	overflow: hidden;
+
+	&__section:not(:last-child) {
+		border-bottom: 1px solid black;
+		padding-bottom: 24px;
+		margin-bottom: 28px;
+		border-bottom: 1px solid $color-gray-600;
+	}
+
+	&__main-title {
+		@include font(14, 20, 600);
+		color: $color-gray-800;
+		margin: 0 0 8px 0;
+		display: block;
+	}
+
+	&__description {
+		@include font(13, 20, 400);
+		color: $color-gray-800;
+		margin: 0 0 18px 0;
+	}
+
+	&__settings {
+		width: 422px;
+		background-color: $color-white;
+		padding: 48px;
+	}
+
+	&__preview {
+		width: calc(100% - 422px);
+		background-color: #FAF8F5;
+		display: flex;
+		align-items: center;
+
+		&-inner {
+			width: 100%;
+			padding: 24px;
+		}
+	}
+
+	&__section--rc {
+		.ppcp-r-styling__title {
+			@include font(13, 20, 600);
+			color: $color-black;
+			display: block;
+			margin: 0 0 18px 0;
+		}
+	}
+
+	&__section--empty.ppcp-r-styling__section {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+
+	&__select {
+		label {
+			@include font(13, 16, 600);
+			color: $color-black;
+			margin: 0;
+			text-transform: none;
+		}
+
+		select {
+			@include font(13, 20, 400);
+		}
+	}
+
+	.ppcp-r__checkbox {
+		.components-checkbox-control {
+			&__label {
+				@include font(13, 20, 400);
+				color: $color-black;
+			}
+		}
+
+		.components-flex {
+			gap: 12px;
+		}
+	}
+
+	&__payment-method-checkboxes {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+}
+
+.ppcp-r {
+	&__horizontal-control {
+		.components-flex {
+			flex-direction: row;
+			justify-content: flex-start;
+			gap: 32px;
+		}
+
+
+		.components-radio-control {
+			&__option {
+				gap: 12px;
+
+				input {
+					margin: 0;
+				}
+
+				label {
+					@include font(13, 20, 400);
+					color: $color-black;
+				}
+			}
+
+			input {
+				margin: 0;
+			}
+		}
+	}
+}

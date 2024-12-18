@@ -1,0 +1,47 @@
+button.components-button, a.components-button {
+	&.is-primary, &.is-secondary {
+		&:not(:disabled) {
+			background-color: $color-black;
+		}
+
+		&:disabled {
+			color: $color-gray-700;
+		}
+
+		border-radius: 50px;
+		padding: 15px 32px;
+		height: auto;
+	}
+
+	&.is-primary {
+		@include font(14, 18, 900);
+
+		&:not(:disabled) {
+			background-color: $color-black;
+		}
+	}
+
+	&.is-secondary:not(:disabled) {
+		border-color: $color-blueberry;
+		background-color: $color-white;
+		color: $color-blueberry;
+
+		&:hover {
+			background-color: $color-white;
+			background: none;
+		}
+	}
+
+	&.is-tertiary {
+		color: $color-blueberry;
+
+		&:hover {
+			color: $color-gradient-dark;
+		}
+
+		&:focus:not(:disabled) {
+			border: none;
+			box-shadow: none;
+		}
+	}
+}

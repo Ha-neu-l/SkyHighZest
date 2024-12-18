@@ -1,0 +1,256 @@
+.ppcp-button-container {
+    text-align: center;
+    margin-top: 5px;
+}
+.ppcp-proceed-to-checkout-button-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; 
+  position: relative;
+}
+.ppcp-proceed-to-checkout-button-separator::before,
+.ppcp-proceed-to-checkout-button-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 12px;
+}
+.ppcp-proceed-to-checkout-button-separator span {
+  font-weight: 500;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background-color: #ffffff;
+  padding: 0 8px;
+  position: relative;
+  z-index: 1;
+}
+.ppcp-order-review .woocommerce-checkout #payment ul.payment_methods {
+    display: none;
+}
+.ppcp_shipping_details,
+.ppcp_billing_details {
+    margin-bottom: 10px;
+    clear: both;
+}
+.ppcp_edit_billing_address,
+.ppcp_edit_shipping_address {
+    cursor: pointer;
+}
+.ppcp_edit_billing_address:hover,
+.ppcp_edit_shipping_address:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.order_review_page_description {
+    margin-bottom: 20px;
+    clear: both;
+}
+.button.alt.ppcp_cancel {
+    clear: both;
+    margin-bottom: 20px;
+}
+.payments-sdk-contingency-handler {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999999 !important;
+}
+.payments-sdk-contingency-handler iframe {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff !important;
+    padding: 1em;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+.ppcp_message_home,
+.ppcp_message_product,
+.ppcp_message_cart,
+.ppcp_message_payment,
+.ppcp_message_category {
+    display: block;
+    margin: 15px 0;
+    position: relative;
+    z-index: 99999;
+}
+.payment_box.payment_method_wpg_paypal_checkout > p {
+    margin-bottom: 20px;
+}
+.ppcp-button-container fieldset {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+}
+.ppcp-button-container fieldset legend {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 220px;
+}
+.ppcp-button-container .express-divider {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    top: -13px;
+    white-space: nowrap;
+    margin-bottom: 25px;
+}
+.ppcp-button-container .express-divider::before,
+.ppcp-button-container .express-divider::after {
+    background: #d1d1d1;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 50%;
+}
+.ppcp-button-container .express-divider::before {
+    margin-right: 1rem;
+}
+.ppcp-button-container .express-divider::after {
+    margin-left: 1rem;
+}
+#express-payment-method-wpg_paypal_checkout_top,
+#express-payment-method-ppcp_checkout_top {
+    list-style: none !important;
+}
+#ppcp_checkout_top {
+    max-width: 490px;
+}
+#wc-wpg_paypal_checkout_cc-cc-form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+#wpg_paypal_checkout_cc-card-number {
+    flex: 1 1 100%;
+}
+#wpg_paypal_checkout_cc-card-expiry,
+#wpg_paypal_checkout_cc-card-cvc {
+    flex: 1 1 150px;
+    flex-grow: 1;
+}
+#payment ul.payment_methods [class*=payment_method_wpg_paypal_checkout] label img {
+    max-height:25px;
+    display:inline-block;
+    max-width: 100px;
+}
+#payment .payment_methods li label[for=payment_method_wpg_paypal_checkout_cc] img {
+    float:none;
+    vertical-align:middle
+}
+#payment .payment_methods li label[for=payment_method_wpg_paypal_checkout_cc] .ppcp-card-icon {
+    max-height:25px
+}
+.wc-block-components-express-payment__event-buttons {
+    padding-bottom: 2px !important;
+}
+
+#ppcp_checkout {
+    max-width: 400px;
+}
+#ppcp_cart_top {
+    max-width: 299px;
+    margin-bottom: 20px;
+}
+#ppcp_cart_top.mobile {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#ppcp_product.mobile {
+    max-width: 350px;
+    margin: 0 auto;
+}
+#ppcp_product.desktop {
+    width: 350px;
+}
+#google-pay-container.product.desktop {
+    width: 350px;
+}
+#google-pay-container.product.mobile {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.ppcp-button-container.ppcp_mini_cart {
+    margin-top: 10px;
+}
+.ppcp-button-container #ppcp_mini_cart {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.express_payment_method_ppcp.desktop {
+    display: flex;
+    justify-content: center; /* Align sections horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Space between the two sections */
+}
+
+#ppcp_checkout_top.desktop {
+    display: flex;
+    gap: 10px; /* Space between PayPal and Venmo buttons */
+    width: 480px
+}
+
+
+
+.express_payment_method_ppcp.mobile {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ppcp_checkout_top.mobile {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+#google-pay-container.mobile {
+    width: 100%;
+    margin: 5px auto;
+}
+#google-pay-container.desktop {
+    display: flex;
+    justify-content: center; /* Center the Google Pay button */
+    align-items: center; /* Align the Google Pay button vertically */
+}
+#google-pay-container.cart {
+    margin-bottom: 10px;
+}
+#google-pay-container.checkout {
+    max-width: 400px;
+}
+#google-pay-container.cart, #google-pay-container.product, #google-pay-container.mini_cart, #google-pay-container.checkout  {
+    margin-top: 12px;
+}
+.ppcp-button-container.ppcp_mini_cart {
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 472px) {
+    #payment .payment_methods li label[for=payment_method_wpg_paypal_checkout_cc] img {
+        display: none;
+    }
+}
+@media screen and (max-width: 452px) {
+    #radio-control-wc-payment-method-options-wpg_paypal_checkout_cc__label img {
+        display:none;
+    }
+}
+.woofc-area-bot .ppcp-button-container #ppcp_mini_cart {
+    max-width: 420px;
+}
+.adfy_woofc-inner .ppcp-button-container #ppcp_mini_cart {
+    max-width: 100%;
+}

@@ -1,0 +1,75 @@
+.ppcp-r-payment-method-item-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.ppcp-r-payment-method-item {
+	display: flex;
+	align-items: flex-start;
+	width: calc(100% / 3 - 32px / 3);
+	border: 1px solid $color-gray-300;
+	padding: 16px;
+	border-radius: 8px;
+	min-height: 200px;
+
+	@media screen and (max-width: 767px) {
+		width: calc(50% - 8px);
+	}
+
+	@media screen and (max-width: 480px) {
+		width: 100%;
+	}
+
+	&__wrap {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	&__title-wrap {
+		display: flex;
+		align-items: center;
+		margin: 0 0 8px 0;
+		gap: 12px;
+	}
+
+	&__content {
+		p {
+			margin: 0;
+			color: $color-text-tertiary;
+			@include font(13, 20, 400);
+		}
+
+		margin: 0 0 12px 0;
+	}
+
+	&__title {
+		@include font(13, 20, 500);
+		color: $color-black;
+		display: block;
+	}
+
+	&__settings-button {
+		line-height: 0;
+		transition: 0.2s ease-out transform;
+		transform: rotate(0deg);
+		zoom: 1.005;
+
+		&:hover {
+			transform: rotate(45deg);
+			cursor: pointer;
+		}
+	}
+
+	button.is-secondary {
+		@include small-button;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: auto;
+	}
+}

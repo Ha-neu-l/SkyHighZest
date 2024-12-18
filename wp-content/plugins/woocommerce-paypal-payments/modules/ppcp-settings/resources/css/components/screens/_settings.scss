@@ -1,0 +1,8 @@
+.ppcp-r-tabs.settings,
+.ppcp-r-container--settings {
+	--max-container-width: var(--max-width-settings);
+
+	.ppcp-r-inner-container {
+		max-width: var(--max-container-width);
+	}
+}

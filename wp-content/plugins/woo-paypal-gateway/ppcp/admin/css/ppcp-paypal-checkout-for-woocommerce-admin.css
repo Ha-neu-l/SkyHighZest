@@ -1,0 +1,105 @@
+.ppcp-collapsible-section {
+    cursor: pointer;
+    padding: 10px 19px;
+    background: white;
+    color: #2c3e50;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s, color 0.3s, border 0.3s;
+    max-width: 862px;
+    margin: 10px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+.ppcp-collapsible-section:after {
+    content: '';
+    display: inline-block;
+    width: 24px; /* Increased width for larger size */
+    height: 24px; /* Increased height for larger size */
+    mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"/></svg>') no-repeat center;
+    -webkit-mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"/></svg>') no-repeat center;
+    background-color: black; /* Color for the arrow */
+    transition: transform 0.3s;
+    transform: rotate(0deg); /* Default: Right-facing arrow */
+}
+.ppcp-collapsible-section.active:after {
+    transform: rotate(180deg); /* Active: Down-facing arrow */
+}
+.ppcp-collapsible-section.active:after {
+    transform: rotate(180deg); /* Active: Down-facing arrow */
+}
+.form-table {
+    max-width: 900px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 30, 30);
+    outline: none;
+    margin-bottom: 10px !important;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+.woocommerce table.form-table th {
+    padding-left: 20px;
+}
+.wpg_paypal_checkout_gateway_setting_sepraer {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.list {
+    list-style-type: circle;
+    margin-left: 42px;
+}
+p.submit {
+    display: block !important;
+}
+table tr:last-child td {
+    padding-bottom: 30px; /* Adjust spacing as needed */
+}
+table tr:first-child td {
+    padding-top: 25px; /* Adjust spacing as needed */
+}
+table tr:first-child th {
+    padding-top: 30px; /* Adjust spacing as needed */
+}
+
+.button.wpg-ppcp-disconnect {
+    margin-top: 20px;
+}
+.wpg_ppcp_paypal_connection_image {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
+    line-height: 1.5;
+}
+
+.wpg_ppcp_paypal_connection_status h3 {
+    margin: 5px 4px !important;
+    font-size: 14px;
+    color: green;
+}
+
+.wpg_ppcp_paypal_connection {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
+    line-height: 1.5;
+}
+.wpg_ppcp_paypal_connection_status {
+    display: block;
+    margin: 0px 1px 11px 7px;
+}
+.select2-search__field {
+  min-width: 400px !important;
+}
+#connect-to-sandbox {
+  vertical-align: middle;
+}
+#connect-to-production {
+  vertical-align: middle;
+}
+.wpg_paypal_checkout_gateway_manual_credential_input {
+  vertical-align: middle;
+}

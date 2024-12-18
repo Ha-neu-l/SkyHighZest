@@ -1,0 +1,13 @@
+@import './onboarding/step-welcome';
+@import './onboarding/step-business';
+@import './onboarding/step-products';
+@import './onboarding/step-payment-methods';
+
+.ppcp-r-tabs.onboarding,
+.ppcp-r-container--onboarding {
+	--max-container-width: var(--max-width-onboarding);
+
+	.ppcp-r-inner-container {
+		max-width: var(--max-width-onboarding-content);
+	}
+}

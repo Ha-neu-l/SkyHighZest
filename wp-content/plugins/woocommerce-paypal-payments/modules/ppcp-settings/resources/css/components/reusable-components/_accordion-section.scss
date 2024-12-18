@@ -1,0 +1,27 @@
+.ppcp-r-accordion {
+	margin-left: auto;
+	margin-right: auto;
+
+	&--title {
+		@include font(14, 32, 450);
+		color: $color-gray-900;
+
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		margin: 24px auto;
+		border: 0;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	&--content {
+		margin: 24px 0 0;
+	}
+
+	&.ppcp--is-open {
+		.ppcp-r-accordion--icon {
+			transform: rotate(180deg);
+		}
+	}
+}

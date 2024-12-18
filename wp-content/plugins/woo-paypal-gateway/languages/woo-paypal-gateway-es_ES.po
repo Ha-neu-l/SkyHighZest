@@ -1,0 +1,2174 @@
+# Copyright (C) 2024 Payment Gateway for PayPal on WooCommerce
+# Este archivo se distribuye bajo la misma licencia que el paquete Payment Gateway for PayPal on WooCommerce.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway for PayPal on WooCommerce 9.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-paypal-gateway\n"
+"POT-Creation-Date: 2024-11-06 15:25+0530\n"
+"PO-Revision-Date: 2024-11-06 19:13+0530\n"
+"Last-Translator: NOMBRE COMPLETO <EMAIL@ADDRESS>\n"
+"Language-Team: ESPAÑOL <LL@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#: includes/class-woo-paypal-gateway-calculations.php:86 includes/class-woo-paypal-gateway-calculations.php:185
+msgid "Item"
+msgstr "Artículo"
+
+#: includes/class-woo-paypal-gateway-calculations.php:102 includes/class-woo-paypal-gateway-calculations.php:198
+msgid "Fee"
+msgstr "Tarifa"
+
+#: includes/class-woo-paypal-gateway.php:253
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: includes/class-woo-paypal-gateway.php:254
+msgid "Docs"
+msgstr "Documentos"
+
+#: includes/class-woo-paypal-gateway.php:255
+msgid "Support"
+msgstr "Soporte"
+
+#: includes/class-woo-paypal-gateway.php:256
+msgid "Write a Review"
+msgstr "Escribir una reseña"
+
+#. Plugin Name of the plugin/theme
+#: includes/class-woo-paypal-gateway.php:271
+msgid "Payment Gateway for PayPal on WooCommerce"
+msgstr "Puerta de enlace de pago para PayPal en WooCommerce"
+
+#: includes/class-woo-paypal-gateway.php:272
+msgid "Hey, We would like to thank you for using our plugin. We would appreciate it if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr "Hola, nos gustaría agradecerte por usar nuestro plugin. Apreciaríamos si pudieras tomar un momento para dejar una breve reseña que nos inspirará a seguir adelante."
+
+#: includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:38
+msgid "Credit Card payments Powered by PayPal / Braintree."
+msgstr "Pagos con tarjeta de crédito impulsados por PayPal / Braintree."
+
+#: includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:334
+msgid "%s payment approved! Trnsaction ID: %s"
+msgstr "¡%s pago aprobado! ID de transacción: %s"
+
+#: includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:338
+msgid "Transaction was submitted to PayPal Braintree but not handled by WooCommerce order, transaction_id: %s, status: %s. Order was put in-hold."
+msgstr "La transacción fue enviada a PayPal Braintree pero no fue manejada por WooCommerce pedido, transaction_id: %s, estado: %s. El pedido fue puesto en espera."
+
+#: includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:635 includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:657
+msgid "Refunded %s - Transaction ID: %s"
+msgstr "Reembolsado %s - ID de transacción: %s"
+
+#: includes/gateways/braintree/class-woo-paypal-gateway-braintree.php:651
+msgid "Oops, you cannot partially void this order. Please use the full order amount."
+msgstr "Ups, no puedes anular parcialmente este pedido. Por favor, utiliza el monto total del pedido."
+
+#: includes/gateways/braintree/settings-braintree.php:12 includes/gateways/express-checkout-nvp/settings-express-checkout.php:20
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:12 includes/gateways/paypal-pro/settings-paypal-pro.php:12
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:12 includes/gateways/paypal-rest/settings-paypal-rest.php:12
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:82 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:171
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:274 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:283
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:384 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:393
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:494 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:630
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:715 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:802
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:888 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:974
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1060 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1085
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: includes/gateways/braintree/settings-braintree.php:13
+msgid "Enable Braintree Payment Gateway"
+msgstr "Habilitar la puerta de enlace de pago Braintree"
+
+#: includes/gateways/braintree/settings-braintree.php:19 includes/gateways/express-checkout-nvp/settings-express-checkout.php:27
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:19 includes/gateways/paypal-pro/settings-paypal-pro.php:19
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:19 includes/gateways/paypal-rest/settings-paypal-rest.php:18
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:90
+msgid "Title"
+msgstr "Título"
+
+#: includes/gateways/braintree/settings-braintree.php:21 includes/gateways/express-checkout-nvp/settings-express-checkout.php:29
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:21 includes/gateways/paypal-pro/settings-paypal-pro.php:21
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:21 includes/gateways/paypal-rest/settings-paypal-rest.php:20
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:92 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1094
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que el usuario ve durante el proceso de pago."
+
+#: includes/gateways/braintree/settings-braintree.php:22
+msgid "Braintree (Credit / PayPal / PayPal Credit)"
+msgstr "Braintree (Crédito / PayPal / Crédito de PayPal)"
+
+#: includes/gateways/braintree/settings-braintree.php:26 includes/gateways/express-checkout-nvp/settings-express-checkout.php:34
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:26 includes/gateways/paypal-pro/settings-paypal-pro.php:26
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:26 includes/gateways/paypal-rest/settings-paypal-rest.php:24
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:97 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:606
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/gateways/braintree/settings-braintree.php:28
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que el usuario ve durante el proceso de pago."
+
+#: includes/gateways/braintree/settings-braintree.php:33
+msgid "Invoice Prefix"
+msgstr "Prefijo de factura"
+
+#: includes/gateways/braintree/settings-braintree.php:35
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal account for multiple stores ensure this prefix is unique as PayPal will not allow orders with the "
+"same invoice number."
+msgstr ""
+"Por favor ingresa un prefijo para tus números de factura. Si usas tu cuenta de PayPal para múltiples tiendas, asegúrate de que este prefijo sea único, ya que PayPal no "
+"permitirá pedidos con el mismo número de factura."
+
+#: includes/gateways/braintree/settings-braintree.php:40
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/gateways/braintree/settings-braintree.php:41
+msgid "Enable Sandbox Mode"
+msgstr "Habilitar modo Sandbox"
+
+#: includes/gateways/braintree/settings-braintree.php:43
+msgid "Place the payment gateway in sandbox mode using sandbox API keys (real payments will not be taken)."
+msgstr "Coloca la puerta de enlace de pago en modo sandbox utilizando claves API sandbox (no se realizarán pagos reales)."
+
+#: includes/gateways/braintree/settings-braintree.php:47
+msgid "Sandbox Public Key"
+msgstr "Clave pública de sandbox"
+
+#: includes/gateways/braintree/settings-braintree.php:49 includes/gateways/braintree/settings-braintree.php:56 includes/gateways/braintree/settings-braintree.php:63
+#: includes/gateways/braintree/settings-braintree.php:70 includes/gateways/braintree/settings-braintree.php:77 includes/gateways/braintree/settings-braintree.php:84
+msgid "Get your API keys from your Braintree account."
+msgstr "Obtén tus claves API de tu cuenta de Braintree."
+
+#: includes/gateways/braintree/settings-braintree.php:54
+msgid "Sandbox Private Key"
+msgstr "Clave privada de sandbox"
+
+#: includes/gateways/braintree/settings-braintree.php:61
+msgid "Sandbox Merchant ID"
+msgstr "ID de comerciante de sandbox"
+
+#: includes/gateways/braintree/settings-braintree.php:68
+msgid "Live Public Key"
+msgstr "Clave pública en vivo"
+
+#: includes/gateways/braintree/settings-braintree.php:75
+msgid "Live Private Key"
+msgstr "Clave privada en vivo"
+
+#: includes/gateways/braintree/settings-braintree.php:82
+msgid "Live Merchant ID"
+msgstr "ID de comerciante en vivo"
+
+#: includes/gateways/braintree/settings-braintree.php:89 includes/gateways/paypal-advanced/settings-paypal-advanced.php:130
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:102 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:130
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:68
+msgid "Card Icon"
+msgstr "Ícono de tarjeta"
+
+#: includes/gateways/braintree/settings-braintree.php:95 includes/gateways/paypal-advanced/settings-paypal-advanced.php:136
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:119 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:136
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:74
+msgid "Debug Log"
+msgstr "Registro de depuración"
+
+#: includes/gateways/braintree/settings-braintree.php:97 includes/gateways/paypal-advanced/settings-paypal-advanced.php:138
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:121 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:138
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:76 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1203
+msgid "Enable logging"
+msgstr "Habilitar registro"
+
+#: includes/gateways/braintree/settings-braintree.php:99
+msgid "Log PayPal/Braintree events"
+msgstr "Registrar eventos de PayPal/Braintree"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:129
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:133
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:138
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:143
+msgid "Payment method successfully added."
+msgstr "Método de pago agregado con éxito."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:694
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:696
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:697
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:146 includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:148
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:149
+msgid "An error occurred while trying to connect to PayPal: %s"
+msgstr "Ocurrió un error al intentar conectarse a PayPal: %s"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:701
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:47
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:153
+msgid "Empty Paypal response."
+msgstr "Respuesta de PayPal vacía."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:706
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:158
+msgid "Malformed response received from PayPal"
+msgstr "Respuesta malformada recibida de PayPal"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:761
+msgid "Payment Status Completed via Express Checkout"
+msgstr "Estado de pago completado a través de Express Checkout"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:770
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:390
+msgid ""
+"Address: The payment is pending because your customer did not include a confirmed shipping address and your Payment Receiving Preferences is set such that you want to "
+"manually accept or deny each of these payments. To change your preference, go to the Preferences section of your Profile."
+msgstr ""
+"Dirección: El pago está pendiente porque su cliente no incluyó una dirección de envío confirmada y sus Preferencias de Recepción de Pagos están configuradas para que "
+"quiera aceptar o negar manualmente cada uno de estos pagos. Para cambiar su preferencia, vaya a la sección de Preferencias de su perfil."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:773
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:393
+msgid "Authorization: The payment is pending because it has been authorized but not settled. You must capture the funds first."
+msgstr "Autorización: El pago está pendiente porque ha sido autorizado pero no liquidado. Debe capturar los fondos primero."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:776
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:396
+msgid "eCheck: The payment is pending because it was made by an eCheck that has not yet cleared."
+msgstr "eCheck: El pago está pendiente porque se realizó mediante un eCheck que no ha despejado todavía."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:779
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:399
+msgid ""
+"intl: The payment is pending because you hold a non-U.S. account and do not have a withdrawal mechanism. You must manually accept or deny this payment from your Account "
+"Overview."
+msgstr ""
+"intl: El pago está pendiente porque tiene una cuenta que no es de EE. UU. y no tiene un mecanismo de retiro. Debe aceptar o negar manualmente este pago desde su resumen "
+"de cuenta."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:783
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:403
+msgid ""
+"Multi-currency: You do not have a balance in the currency sent, and you do not have your Payment Receiving Preferences set to automatically convert and accept this "
+"payment. You must manually accept or deny this payment."
+msgstr ""
+"Multi-moneda: No tiene un saldo en la moneda enviada y no tiene sus Preferencias de Recepción de Pagos configuradas para convertir y aceptar automáticamente este pago. "
+"Debe aceptar o negar manualmente este pago."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:786
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:406
+msgid "Order: The payment is pending because it is part of an order that has been authorized but not settled."
+msgstr "Pedido: El pago está pendiente porque es parte de un pedido que ha sido autorizado pero no liquidado."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:789
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:409
+msgid "Payment Review: The payment is pending while it is being reviewed by PayPal for risk."
+msgstr "Revisión de pago: El pago está pendiente mientras es revisado por PayPal por riesgo."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:792
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:412
+msgid "Unilateral: The payment is pending because it was made to an email address that is not yet registered or confirmed."
+msgstr "Unilateral: El pago está pendiente porque se realizó a una dirección de correo electrónico que aún no está registrada o confirmada."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:795
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:415
+msgid "Verify: The payment is pending because you are not yet verified. You must verify your account before you can accept this payment."
+msgstr "Verificar: El pago está pendiente porque aún no está verificado. Debe verificar su cuenta antes de poder aceptar este pago."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:798
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:418
+msgid "Other: For more information, contact PayPal customer service."
+msgstr "Otro: Para más información, contacte al servicio al cliente de PayPal."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:802
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:422 ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:268
+msgid "No pending reason provided."
+msgstr "No se proporcionó motivo de pendiente."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:805
+msgid "Payment via Express Checkout Pending. PayPal reason: %s."
+msgstr "Pago a través de Express Checkout pendiente. Motivo de PayPal: %s."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:814
+msgid "Express Checkout Error: %s."
+msgstr "Error de Express Checkout: %s."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:823
+msgid "Payment %s via Express Checkout."
+msgstr "Pago %s a través de Express Checkout."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:838
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:367
+msgid "Payer Status: %s"
+msgstr "Estado del pagador: %s"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:841
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:370
+msgid "Address Status: %s"
+msgstr "Estado de dirección: %s"
+
+#. translators: placeholder is blogname
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:850
+msgctxt "data sent to PayPal"
+msgid "Orders with %s"
+msgstr "Pedidos con %s"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:895
+msgid "Transaction did not meet our Seller Protection requirements. Cancelling and refunding order."
+msgstr "La transacción no cumplió con nuestros requisitos de Protección al Vendedor. Cancelando y reembolsando el pedido."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-api-handler.php:896
+msgid "There was a problem processing your order. Please contact customer support."
+msgstr "Hubo un problema procesando su pedido. Por favor contacte al soporte al cliente."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-helper.php:224 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:602
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:616
+msgid "Confirm your PayPal order"
+msgstr "Confirma tu pedido de PayPal"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-helper.php:280
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Tramposo, eh?"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout-subscriptions.php:123
+msgid "Via %1$s %2$s"
+msgstr "A través de %1$s %2$s"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout.php:30
+msgid "PayPal Express Checkout (deprecated)"
+msgstr "PayPal Express Checkout (obsoleto)"
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout.php:32
+msgid "Increase sales by using PayPal express checkout to accept payments."
+msgstr "Aumente las ventas utilizando PayPal express checkout para aceptar pagos."
+
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout.php:109
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout.php:110
+#: includes/gateways/express-checkout-nvp/class-woo-paypal-gateway-express-checkout.php:116
+msgid "Pay with PayPal"
+msgstr "Pagar con PayPal"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:12
+msgid "This image requires an SSL host.  Please upload your image to <a target=\"_blank\" href=\"http://www.sslpic.com\">www.sslpic.com</a> and enter the image URL here."
+msgstr ""
+"Esta imagen requiere un host SSL. Por favor, sube tu imagen a <a target=\"_blank\" href=\"http://www.sslpic.com\">www.sslpic.com</a> y introduce la URL de la imagen aquí."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:14 includes/gateways/express-checkout-nvp/settings-express-checkout.php:145
+msgid "Enable PayPal Credit"
+msgstr "Habilitar PayPal Crédito"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:16
+msgid "This option is disabled. Currently PayPal Credit only available for U.S. and U.K. merchants."
+msgstr "Esta opción está deshabilitada. Actualmente, PayPal Crédito solo está disponible para comerciantes de EE. UU. y Reino Unido."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:21
+msgid "Enable PayPal Express"
+msgstr "Habilitar PayPal Express"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:30
+msgid "PayPal Express"
+msgstr "PayPal Express"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:37 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:100
+msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account"
+msgstr "Paga a través de PayPal; puedes pagar con tu tarjeta de crédito si no tienes una cuenta de PayPal"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:41
+msgid "Account Settings (Classic Sandbox API Credentials)"
+msgstr "Configuraciones de la cuenta (Credenciales de API de Sandbox clásico)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:46 includes/gateways/paypal-rest/settings-paypal-rest.php:37
+msgid "Sandbox Mode"
+msgstr "Modo Sandbox"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:48 includes/gateways/paypal-rest/settings-paypal-rest.php:39
+msgid "Enable PayPal Sandbox Mode"
+msgstr "Habilitar modo Sandbox de PayPal"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:50 includes/gateways/paypal-rest/settings-paypal-rest.php:41
+msgid "Place the payment gateway in development mode. Sign up for a developer account <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr "Coloca la puerta de enlace de pago en modo de desarrollo. Regístrate para una cuenta de desarrollador <a href=\"%s\" target=\"_blank\">aquí</a>"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:53 includes/gateways/express-checkout-nvp/settings-express-checkout.php:71
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:55
+msgid "Create sandbox accounts and obtain API credentials from within your PayPal developer account."
+msgstr "Crea cuentas de sandbox y obtén credenciales de API desde tu cuenta de desarrollador de PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:60 includes/gateways/express-checkout-nvp/settings-express-checkout.php:77
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:82 includes/gateways/paypal-advanced/settings-paypal-advanced.php:112
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:82 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:112
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:65 includes/gateways/express-checkout-nvp/settings-express-checkout.php:82
+msgid "Signature"
+msgstr "Firma"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:73
+msgid ""
+"Get your live account API credentials from your PayPal account profile under the API Access section <br />or by using <a target=\"_blank\" href=\"https://www.paypal.com/"
+"us/cgi-bin/webscr?cmd=_login-api-run\">this tool</a>."
+msgstr ""
+"Obtén tus credenciales de API de la cuenta en vivo desde el perfil de tu cuenta de PayPal en la sección de Acceso a API <br />o usando <a target=\"_blank\" href=\"https://"
+"www.paypal.com/us/cgi-bin/webscr?cmd=_login-api-run\">esta herramienta</a>."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:88
+msgid "Display Settings (Optional)"
+msgstr "Configuraciones de visualización (Opcional)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:91
+msgid "Customize the appearance of Express Checkout in your store."
+msgstr "Personaliza la apariencia de Express Checkout en tu tienda."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:94
+msgid "Page Style"
+msgstr "Estilo de página"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:96
+msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account."
+msgstr "Opcionalmente, ingresa el nombre del estilo de página que deseas usar. Estos están definidos dentro de tu cuenta de PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:99 includes/gateways/express-checkout-nvp/settings-express-checkout.php:114
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:122
+msgid "Optional"
+msgstr "Opcional"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:102 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1132
+msgid "Brand Name"
+msgstr "Nombre de marca"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:104 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1134
+msgid "This controls what users see as the brand / company name on PayPal review pages."
+msgstr "Esto controla lo que los usuarios ven como el nombre de marca / empresa en las páginas de revisión de PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:109
+msgid "PayPal Checkout Logo Image(190x60)"
+msgstr "Imagen de logo de PayPal Checkout (190x60)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:111
+msgid "This controls what users see as the logo on PayPal review pages."
+msgstr "Esto controla lo que los usuarios ven como el logo en las páginas de revisión de PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:117
+msgid "Header Image (750x90)"
+msgstr "Imagen de encabezado (750x90)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:119
+msgid "This controls what users see as the header banner on PayPal review pages."
+msgstr "Esto controla lo que los usuarios ven como el banner de encabezado en las páginas de revisión de PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:125
+msgid "PayPal Account Optional"
+msgstr "Cuenta de PayPal Opcional"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:127
+msgid "Allow customers to checkout without a PayPal account using their credit card."
+msgstr "Permitir a los clientes realizar el pago sin una cuenta de PayPal usando su tarjeta de crédito."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:129
+msgid "PayPal Account Optional must be turned on in your PayPal account profile under Website Preferences."
+msgstr "La opción de Cuenta de PayPal Opcional debe estar activada en el perfil de tu cuenta de PayPal bajo Preferencias del sitio web."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:133 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1139
+msgid "Landing Page"
+msgstr "Página de destino"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:136
+msgid "Type of PayPal page to display."
+msgstr "Tipo de página de PayPal a mostrar."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:140
+msgctxt "Type of PayPal page"
+msgid "Billing (Non-PayPal account)"
+msgstr "Facturación (Cuenta no PayPal)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:141
+msgctxt "Type of PayPal page"
+msgid "Login (PayPal account login)"
+msgstr "Iniciar sesión (Inicio de sesión de cuenta PayPal)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:151
+msgid ""
+"This enables PayPal Credit, which displays a PayPal Credit button next to the Express Checkout button. PayPal Express Checkout lets you give customers access to financing "
+"through PayPal Credit® - at no additional cost to you. You get paid up front, even though customers have more time to pay. A pre-integrated payment button shows up next "
+"to the PayPal Button, and lets customers pay quickly with PayPal Credit®."
+msgstr ""
+"Esto habilita PayPal Crédito, que muestra un botón de PayPal Crédito junto al botón de Express Checkout. PayPal Express Checkout te permite dar a los clientes acceso a "
+"financiamiento a través de PayPal Crédito® - sin costo adicional para ti. Recibes el pago por adelantado, aunque los clientes tienen más tiempo para pagar. Un botón de "
+"pago preintegrado aparece junto al botón de PayPal y permite que los clientes paguen rápidamente con PayPal Crédito®."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:154 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:164
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:819
+msgid "Product Page"
+msgstr "Página del producto"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:156
+msgid "Show the Express Checkout button on product detail pages."
+msgstr "Mostrar el botón de Express Checkout en las páginas de detalle del producto."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:158
+msgid "Allows customers to checkout using PayPal directly from a product page."
+msgstr "Permite a los clientes realizar el pago usando PayPal directamente desde una página de producto."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:162 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:267
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:905
+msgid "Cart Page"
+msgstr "Página del carrito"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:163
+msgid "Show Express Checkout button on shopping cart page."
+msgstr "Mostrar el botón de Express Checkout en la página del carrito de compras."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:168
+msgid "Cart Button Position"
+msgstr "Posición del botón del carrito"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:169
+msgid "Where to display PayPal Express Checkout button(s)."
+msgstr "Dónde mostrar el(los) botón(es) de PayPal Express Checkout."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:171
+msgid "Set where to display the PayPal Express Checkout button(s)."
+msgstr "Establecer dónde mostrar el(los) botón(es) de PayPal Express Checkout."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:182 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:377
+msgid "Checkout Page"
+msgstr "Página de pago"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:184
+msgid "Show the Express Checkout button on checkout page."
+msgstr "Mostrar el botón de Express Checkout en la página de pago."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:186
+msgid "Allows customers to checkout using PayPal directly from a checkout page."
+msgstr "Permite a los clientes realizar el pago usando PayPal directamente desde una página de pago."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:190
+msgid "Express Checkout Message"
+msgstr "Mensaje de Express Checkout"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:192
+msgid "This message will be displayed near to the PayPal Express Checkout button at the top of the checkout page."
+msgstr "Este mensaje se mostrará cerca del botón de PayPal Express Checkout en la parte superior de la página de pago."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:193
+msgid "Skip the checkout form and pay faster with PayPal!"
+msgstr "¡Salta el formulario de pago y paga más rápido con PayPal!"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:197
+msgid "Express Checkout Custom Button Styles (Optional)"
+msgstr "Estilos de botón personalizados de Express Checkout (Opcional)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:202
+msgid "Button Size"
+msgstr "Tamaño del botón"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:205
+msgid "Type of PayPal Button Size (small | medium | responsive)."
+msgstr "Tipo de tamaño del botón de PayPal (pequeño | mediano | responsivo)."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:209
+msgid "Small"
+msgstr "Pequeño"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:210
+msgid "Medium"
+msgstr "Mediano"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:211
+msgid "Responsive"
+msgstr "Responsivo"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:215 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:230
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:340 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:450
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:553
+msgid "Button Shape"
+msgstr "Forma del botón"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:218
+msgid "Type of PayPal Button Shape (pill | rect)."
+msgstr "Tipo de forma del botón de PayPal (pastilla | rectángulo)."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:222 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:238
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:348 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:458
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:561
+msgid "Pill"
+msgstr "Pastilla"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:223
+msgid "Rect"
+msgstr "Rectángulo"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:227 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:215
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:325 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:435
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:538
+msgid "Button Color"
+msgstr "Color del botón"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:230
+msgid "Type of PayPal Button Color (gold | blue | silver)."
+msgstr "Tipo de color del botón de PayPal (oro | azul | plata)."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:234
+msgid "Gold"
+msgstr "Oro"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:235 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:223
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:333 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:443
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:546 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "Blue"
+msgstr "Azul"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:236 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:224
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:334 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:444
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:547
+msgid "Silver"
+msgstr "Plata"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:240
+msgid "Advanced Settings (Optional)"
+msgstr "Configuraciones avanzadas (Opcional)"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:245
+msgid "Invoice ID Prefix"
+msgstr "Prefijo del ID de la factura"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:247
+msgid "Add a prefix to the invoice ID sent to PayPal. This can resolve duplicate invoice problems when working with multiple websites on the same PayPal account."
+msgstr ""
+"Añade un prefijo al ID de la factura enviado a PayPal. Esto puede resolver problemas de facturas duplicadas al trabajar con múltiples sitios web en la misma cuenta de "
+"PayPal."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:252 includes/gateways/paypal-advanced/settings-paypal-advanced.php:119
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:83 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:119
+msgid "Payment Action"
+msgstr "Acción de pago"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:255 includes/gateways/paypal-advanced/settings-paypal-advanced.php:121
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:86 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:121
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1170
+msgid "Choose whether you wish to capture funds immediately or authorize payment only."
+msgstr "Elige si deseas capturar fondos inmediatamente o solo autorizar el pago."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:259
+msgid "Sale"
+msgstr "Venta"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:260
+msgid "Authorization"
+msgstr "Autorización"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:261
+msgid "Order"
+msgstr "Orden"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:265
+msgid "Instant Payments"
+msgstr "Pagos instantáneos"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:267 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1157
+msgid "Require Instant Payment"
+msgstr "Requerir pago instantáneo"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:270 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1154
+msgid ""
+"If you enable this setting, PayPal will be instructed not to allow the buyer to use funding sources that take additional time to complete (for example, eChecks). Instead, "
+"the buyer will be required to use an instant funding source, such as an instant transfer, a credit/debit card, or PayPal Credit."
+msgstr ""
+"Si habilitas esta configuración, se instruirá a PayPal para que no permita al comprador usar fuentes de financiamiento que tarden más en completarse (por ejemplo, "
+"eChecks). En su lugar, se requerirá que el comprador utilice una fuente de financiamiento instantánea, como una transferencia instantánea, una tarjeta de crédito/débito, "
+"o PayPal Crédito."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:273
+msgid "Enable In-Context Checkout flow"
+msgstr "Habilitar flujo de pago en contexto"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:275
+msgid ""
+"The enhanced PayPal Express Checkout with In-Context gives your customers a simplified checkout experience that keeps them local to your website throughout the payment "
+"authorization process and enables them to use their PayPal balance, bank account, or credit card to pay without sharing or entering any sensitive information on your site."
+msgstr ""
+"El PayPal Express Checkout mejorado con In-Context ofrece a tus clientes una experiencia de pago simplificada que los mantiene en tu sitio web durante todo el proceso de "
+"autorización de pago y les permite usar su saldo de PayPal, cuenta bancaria o tarjeta de crédito para pagar sin compartir o ingresar información sensible en tu sitio."
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:279
+msgid "Debug"
+msgstr "Depuración"
+
+#: includes/gateways/express-checkout-nvp/settings-express-checkout.php:281
+msgid "Enable logging<code>%s</code>"
+msgstr "Habilitar registro<code>%s</code>"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:43
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:175
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:228
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:116
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:183
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:235
+msgid "There was a problem connecting to the payment gateway."
+msgstr "Hubo un problema al conectar con la pasarela de pago."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:63
+msgid "PayPal Pro (Payflow) token generation failed: "
+msgstr "Fallo en la generación del token de PayPal Pro (Payflow): "
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:64
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:155
+msgid "Payment error:"
+msgstr "Error de pago:"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:197
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:199
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:295 includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:297
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:204
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:206
+msgid "This order cannot be refunded due to an authorized only transaction.  Please use cancel instead."
+msgstr "Este pedido no puede ser reembolsado debido a una transacción autorizada solamente. Por favor usa cancelar en su lugar."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:231
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:238
+msgid "Unexpected response from PayPal."
+msgstr "Respuesta inesperada de PayPal."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:236
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:243
+msgid "Refunded %1$s - PNREF: %2$s"
+msgstr "Reembolsado %1$s - PNREF: %2$s"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:267
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:134
+msgid "PayPal Pro (PayFlow) charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr "Carga autorizada de PayPal Pro (PayFlow) (ID de carga: %s). Procesa el pedido para tomar el pago, o cancela para eliminar la pre-autorización."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:270
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:137
+msgid "PayPal Pro (Payflow) payment completed (PNREF: %s)"
+msgstr "Pago de PayPal Pro (Payflow) completado (PNREF: %s)"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:279
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:145
+msgid ""
+"The payment was flagged by a fraud filter. Please check your PayPal Manager account to review and accept or deny the payment and then mark this order \"processing\" or "
+"\"cancelled\"."
+msgstr ""
+"El pago fue marcado por un filtro de fraude. Por favor verifica tu cuenta de PayPal Manager para revisar y aceptar o denegar el pago y luego marca este pedido como "
+"\"procesando\" o \"cancelado\"."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:310
+msgid "Enter your payment details below and click \"Confirm and pay\" to securely pay for your order."
+msgstr "Ingresa los detalles de tu pago a continuación y haz clic en \"Confirmar y pagar\" para pagar de forma segura tu pedido."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:316
+msgid "TEST/SANDBOX MODE ENABLED. In test mode, you can use the card number 4111111111111111 with any CVC and a valid expiration date."
+msgstr "MODO DE PRUEBA/SANDBOX HABILITADO. En modo de prueba, puedes usar el número de tarjeta 4111111111111111 con cualquier CVC y una fecha de expiración válida."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:319
+msgid "Card Number "
+msgstr "Número de tarjeta "
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:323
+msgid "Expiry (MM/YY) "
+msgstr "Expiración (MM/AA) "
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:327
+msgid "Card Code "
+msgstr "Código de tarjeta "
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced-api-handler.php:335
+msgid "Confirm and pay"
+msgstr "Confirmar y pagar"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced.php:29
+msgid "PayPal Advanced"
+msgstr "PayPal Avanzado"
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced.php:30
+msgid "PayPal Advanced works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr "PayPal Avanzado funciona añadiendo campos de tarjeta de crédito en el pago y luego enviando los detalles a PayPal para verificación."
+
+#: includes/gateways/paypal-advanced/class-woo-paypal-gateway-paypal-advanced.php:63
+msgid "Enter payment details"
+msgstr "Ingresa los detalles del pago"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:13
+msgid "Enable PayPal Pro Advanced Edition"
+msgstr "Habilitar PayPal Pro Edición Avanzada"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:22 includes/gateways/paypal-pro/settings-paypal-pro.php:22
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:22
+msgid "Credit card (PayPal)"
+msgstr "Tarjeta de crédito (PayPal)"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:29 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:29
+msgid "Pay with your credit card."
+msgstr "Paga con tu tarjeta de crédito."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:33 includes/gateways/paypal-pro/settings-paypal-pro.php:108
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:33
+msgid "Soft Descriptor"
+msgstr "Descriptor suave"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:35 includes/gateways/paypal-pro/settings-paypal-pro.php:110
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:35
+msgid ""
+"(Optional) Information that is usually displayed in the account holder's statement, for example your website name. Only 23 alphanumeric characters can be included, "
+"including the special characters dash (-) and dot (.) . Asterisks (*) and spaces ( ) are NOT permitted."
+msgstr ""
+"(Opcional) Información que normalmente se muestra en el estado de cuenta del titular de la cuenta, por ejemplo el nombre de tu sitio web. Solo se pueden incluir 23 "
+"caracteres alfanuméricos, incluyendo los caracteres especiales guion (-) y punto (.). No se permiten asteriscos (*) ni espacios ( )."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:51 includes/gateways/paypal-pro/settings-paypal-pro.php:33
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:51
+msgid "Test Mode"
+msgstr "Modo de prueba"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:52 includes/gateways/paypal-pro/settings-paypal-pro.php:34
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:52
+msgid "Enable PayPal Sandbox/Test Mode"
+msgstr "Habilitar Modo Sandbox/Test de PayPal"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:54 includes/gateways/paypal-pro/settings-paypal-pro.php:36
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:54
+msgid "Place the payment gateway in development mode."
+msgstr "Colocar la pasarela de pago en modo de desarrollo."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:59 includes/gateways/paypal-advanced/settings-paypal-advanced.php:89
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:59 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:89
+msgid "Partner"
+msgstr "Socio"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:61 includes/gateways/paypal-advanced/settings-paypal-advanced.php:91
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:61 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:91
+msgid ""
+"The ID provided to you by the authorized PayPal Reseller who registered you\n"
+"\t\t\tfor the Payflow SDK. If you purchased your account directly from PayPal, use PayPal or leave blank."
+msgstr ""
+"El ID proporcionado por el Revendedor autorizado de PayPal que te registró\n"
+"\t\t\ten el SDK de Payflow. Si compraste tu cuenta directamente de PayPal, usa PayPal o deja en blanco."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:67 includes/gateways/paypal-advanced/settings-paypal-advanced.php:97
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:67 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:97
+msgid "Merchant Login"
+msgstr "Inicio de sesión del comerciante"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:69 includes/gateways/paypal-advanced/settings-paypal-advanced.php:99
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:69 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:99
+msgid "Your merchant login ID that you created when you registered for the account."
+msgstr "Tu ID de inicio de sesión del comerciante que creaste al registrarte para la cuenta."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:74 includes/gateways/paypal-advanced/settings-paypal-advanced.php:104
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:74 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:104
+msgid "User (optional)"
+msgstr "Usuario (opcional)"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:76 includes/gateways/paypal-advanced/settings-paypal-advanced.php:106
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:76 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:106
+msgid ""
+"If you set up one or more additional users on the account, this value is the ID\n"
+"\t\t\tof the user authorized to process transactions. Otherwise, leave this field blank."
+msgstr ""
+"Si configuraste uno o más usuarios adicionales en la cuenta, este valor es el ID\n"
+"\t\t\tdel usuario autorizado para procesar transacciones. De lo contrario, deja este campo en blanco."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:84 includes/gateways/paypal-advanced/settings-paypal-advanced.php:114
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:84 includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:114
+msgid "The password that you defined while registering for the account."
+msgstr "La contraseña que definiste al registrarte para la cuenta."
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:125 includes/gateways/paypal-pro/settings-paypal-pro.php:90
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:125 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1174
+msgid "Capture"
+msgstr "Captura"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:126 includes/gateways/paypal-pro/settings-paypal-pro.php:91
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:126 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1175
+msgid "Authorize"
+msgstr "Autorizar"
+
+#: includes/gateways/paypal-advanced/settings-paypal-advanced.php:141
+msgid "Log PayPal Pro (Advanced) events inside <code>woocommerce/logs/paypal-pro-advanced.txt</code>"
+msgstr "Registrar eventos de PayPal Pro (Avanzado) dentro de <code>woocommerce/logs/paypal-pro-advanced.txt</code>"
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:381
+msgid "Payment Status Completed via %s"
+msgstr "Estado del pago completado a través de %s"
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:425 ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:811
+msgid "Payment via %s Pending. PayPal reason: %s."
+msgstr "Pago a través de %s pendiente. Razón de PayPal: %s."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:432
+msgid "%s Error: %s."
+msgstr "%s Error: %s."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro-api-handler.php:441
+msgid "Payment %s via %s."
+msgstr "Pago %s a través de %s."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:34
+msgid "PayPal Pro"
+msgstr "PayPal Pro"
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:35
+msgid "PayPal Pro works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr "PayPal Pro funciona añadiendo campos de tarjeta de crédito en el pago y luego enviando los detalles a PayPal para verificación."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:150 includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:183
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:91
+msgid "NOTICE: SANDBOX (TEST) MODE ENABLED."
+msgstr "AVISO: MODO SANDBOX (PRUEBA) HABILITADO."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:152 includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:93
+msgid "For testing purposes you can use the card number 4916311462114485 with any CVC and a valid expiration date."
+msgstr "Para propósitos de prueba, puedes usar el número de tarjeta 4916311462114485 con cualquier CVC y una fecha de expiración válida."
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:182 includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:188
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:128
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:134 includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:112
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:118
+msgid "Card expiration date is invalid"
+msgstr "La fecha de expiración de la tarjeta no es válida"
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:185 includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:131
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:115
+msgid "Card security code is invalid (only digits are allowed)"
+msgstr "El código de seguridad de la tarjeta no es válido (solo se permiten dígitos)"
+
+#: includes/gateways/paypal-pro/class-woo-paypal-gateway-paypal-pro.php:191 includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:137
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:121
+msgid "Card number is invalid"
+msgstr "El número de tarjeta no es válido"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:13
+msgid "Enable PayPal Pro"
+msgstr "Habilitar PayPal Pro"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:29
+msgid "Pay with your credit card via PayPal Website Payments Pro."
+msgstr "Paga con tu tarjeta de crédito a través de PayPal Website Payments Pro."
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:41
+msgid "Sandbox API Username"
+msgstr "Nombre de usuario de la API Sandbox"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:43 includes/gateways/paypal-pro/settings-paypal-pro.php:50 includes/gateways/paypal-pro/settings-paypal-pro.php:57
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:64 includes/gateways/paypal-pro/settings-paypal-pro.php:71 includes/gateways/paypal-pro/settings-paypal-pro.php:78
+msgid "Get your API credentials from PayPal."
+msgstr "Obtén tus credenciales de API de PayPal."
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:48
+msgid "Sandbox API Password"
+msgstr "Contraseña de la API Sandbox"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:55
+msgid "Sandbox API Signature"
+msgstr "Firma de la API Sandbox"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:62
+msgid "API Username"
+msgstr "Nombre de usuario de la API"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:69
+msgid "API Password"
+msgstr "Contraseña de la API"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:76
+msgid "API Signature"
+msgstr "Firma de la API"
+
+#: includes/gateways/paypal-pro/settings-paypal-pro.php:124
+msgid "Log PayPal Pro events inside <code>woocommerce/logs/paypal-pro.txt</code>"
+msgstr "Registrar eventos de PayPal Pro dentro de <code>woocommerce/logs/paypal-pro.txt</code>"
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:120
+msgid "Empty PayPal response."
+msgstr "Respuesta de PayPal vacía."
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:154
+msgid "PayPal Pro (Payflow) payment failed. Payment was rejected due to an error: "
+msgstr "El pago de PayPal Pro (Payflow) falló. El pago fue rechazado debido a un error: "
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow-api-handler.php:159
+msgid "Connection error:"
+msgstr "Error de conexión:"
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:29
+msgid "PayPal Pro PayFlow"
+msgstr "PayPal Pro PayFlow"
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:30
+msgid "PayPal Pro PayFlow Edition works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr "La edición PayPal Pro PayFlow funciona añadiendo campos de tarjeta de crédito en el pago y luego enviando los detalles a PayPal para verificación."
+
+#: includes/gateways/paypal-pro-payflow/class-woo-paypal-gateway-paypal-pro-payflow.php:185
+msgid "For testing purposes you can use the card number 4111111111111111 with any CVC and a valid expiration date."
+msgstr "Para propósitos de prueba, puedes usar el número de tarjeta 4111111111111111 con cualquier CVC y una fecha de expiración válida."
+
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:13
+msgid "Enable PayPal Pro Payflow Edition"
+msgstr "Habilitar la edición PayPal Pro Payflow"
+
+#: includes/gateways/paypal-pro-payflow/settings-paypal-pro-payflow.php:141
+msgid "Log PayPal Pro (Payflow) events inside <code>woocommerce/logs/paypal-pro-payflow.txt</code>"
+msgstr "Registrar eventos de PayPal Pro (Payflow) dentro de <code>woocommerce/logs/paypal-pro-payflow.txt</code>"
+
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest-api-handler.php:270
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest-api-handler.php:279
+msgid "PayPal Credit Card Payments (REST) payment completed"
+msgstr "Pago de tarjetas de crédito de PayPal (REST) completado"
+
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:31
+msgid "PayPal direct credit card payments using the REST API.  This allows you to accept credit cards directly on the website."
+msgstr "Pagos directos con tarjeta de crédito de PayPal utilizando la API REST. Esto te permite aceptar tarjetas de crédito directamente en el sitio web."
+
+#: includes/gateways/paypal-rest/class-woo-paypal-gateway-paypal-rest.php:105
+msgid "Error processing checkout. Please try again."
+msgstr "Error al procesar la compra. Por favor intenta de nuevo."
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:14
+msgid "Enable PayPal Credit Card (REST)"
+msgstr "Habilitar tarjeta de crédito de PayPal (REST)"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:21
+msgid "PayPal Credit Card (REST)"
+msgstr "Tarjeta de crédito de PayPal (REST)"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:27
+msgid "Pay with your credit card"
+msgstr "Paga con tu tarjeta de crédito"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:44 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:140
+msgid "Sandbox Client ID"
+msgstr "ID de cliente Sandbox"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:50
+msgid "Sandbox Secret ID"
+msgstr "ID secreto Sandbox"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:52
+msgid "Enter your Sandbox PayPal Rest API Secret ID."
+msgstr "Ingresa tu ID secreto de la API Rest de PayPal Sandbox."
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:56
+msgid "Live Client ID"
+msgstr "ID de cliente en vivo"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:62
+msgid "Live Secret ID"
+msgstr "ID secreto en vivo"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:64
+msgid "Enter your PayPal Rest API Secret ID."
+msgstr "Ingresa tu ID secreto de la API Rest de PayPal."
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:78
+msgid "Log PayPal events, such as Secured Token requests"
+msgstr "Registrar eventos de PayPal, como solicitudes de Token seguro"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:81
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:86 includes/gateways/paypal-rest/settings-paypal-rest.php:87
+msgid "Enable Tokenized Payments"
+msgstr "Habilitar pagos tokenizados"
+
+#: includes/gateways/paypal-rest/settings-paypal-rest.php:89
+msgid "Allow buyers to securely save payment details to their account for quick checkout / auto-ship orders in the future."
+msgstr "Permitir a los compradores guardar de forma segura los detalles de pago en su cuenta para pago rápido / pedidos de envío automático en el futuro."
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:118
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "Error de validación: las monedas de PayPal no coinciden (código %s)."
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:131
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "Error de validación: los montos de PayPal no coinciden (bruto %s)."
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:150
+msgid "IPN payment completed"
+msgstr "Pago IPN completado"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:152
+msgid "Payment pending: %s"
+msgstr "Pago pendiente: %s"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:171 includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:208
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:209 includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:222
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:223 includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:235
+msgid "Payment %s via IPN."
+msgstr "Pago %s a través de IPN."
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:211
+msgid "Payment for order %s refunded"
+msgstr "Pago por la orden %s reembolsado"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:211
+msgid "Order #%s has been marked as refunded - PayPal reason code: %s"
+msgstr "La orden #%s ha sido marcada como reembolsada - código de razón de PayPal: %s"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:225
+msgid "Payment for order %s reversed"
+msgstr "Pago por la orden %s revertido"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:225
+msgid "Order #%s has been marked on-hold due to a reversal - PayPal reason code: %s"
+msgstr "La orden #%s ha sido marcada como en espera debido a una reversión - código de razón de PayPal: %s"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:237
+msgid "Reversal cancelled for order #%s"
+msgstr "Reversión cancelada para la orden #%s"
+
+#: includes/paypal-ipn/class-woo-paypal-gateway-ipn-handler.php:237
+msgid "Order #%s has had a reversal cancelled. Please check the status of payment and update the order status accordingly here: %s"
+msgstr "La orden #%s ha tenido una reversión cancelada. Por favor verifica el estado del pago y actualiza el estado de la orden aquí: %s"
+
+#: ppcp/checkout-block/ppcp-cc-block.php:38 ppcp/checkout-block/ppcp-checkout-block.php:38
+msgid "Confirm Your PayPal Order"
+msgstr "Confirma tu pedido de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-checkout.php:24 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-checkout.php:64
+msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+msgstr "Lo siento, tu sesión ha expirado. <a href=\"%s\" class=\"wc-backward\">Regresar a la tienda</a>"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-checkout.php:42 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-checkout.php:81
+msgid "Unable to create order."
+msgstr "No se puede crear la orden."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:19 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:187
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:297 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:407
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:510 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1095
+msgid "Credit or Debit Card"
+msgstr "Tarjeta de crédito o débito"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:80 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:72
+msgctxt "Name of credit card"
+msgid "Visa"
+msgstr "Visa"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:85 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:73
+msgctxt "Name of credit card"
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:90
+msgctxt "Name of credit card"
+msgid "Maestro"
+msgstr "Maestro"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:95 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:74
+msgctxt "Name of credit card"
+msgid "American Express"
+msgstr "American Express"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:100 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:75
+msgctxt "Name of credit card"
+msgid "Discover"
+msgstr "Discover"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:105 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:76
+msgctxt "Name of credit card"
+msgid "JCB"
+msgstr "JCB"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:110 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:77
+msgctxt "Name of credit card"
+msgid "Elo"
+msgstr "Elo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:115 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:78
+msgctxt "Name of credit card"
+msgid "Hiper"
+msgstr "Hiper"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway-cc.php:190 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:206
+msgid "Refund failed."
+msgstr "El reembolso falló."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:43 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:57
+msgid "Accept PayPal, PayPal Credit and alternative payment types."
+msgstr "Aceptar PayPal, PayPal Credit y tipos de pago alternativos."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:59 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:93
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:87 ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:359
+msgid "PayPal Checkout"
+msgstr "Pago con PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:60
+msgid "PayPal Checkout with Smart Payment Buttons gives your buyers a simplified and secure checkout experience."
+msgstr "PayPal Checkout con Botones de Pago Inteligentes ofrece a tus compradores una experiencia de pago simplificada y segura."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:233
+msgid "This represents the fee PayPal collects for the transaction."
+msgstr "Esto representa la tarifa que PayPal cobra por la transacción."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:234
+msgid "PayPal Fee:"
+msgstr "Tarifa de PayPal:"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-gateway.php:259
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-product.php:75
+msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr "Por favor, elige la cantidad de artículos que deseas agregar a tu carrito&hellip;"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-product.php:84
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "Por favor, elige un producto para agregar a tu carrito&hellip;"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-product.php:131
+msgid "Please choose product options&hellip;"
+msgstr "Por favor, elige opciones de producto&hellip;"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-product.php:147
+msgid "Invalid value posted for %s"
+msgstr "Valor inválido enviado para %s"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-product.php:154
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s es un campo obligatorio"
+msgstr[1] "%s son campos obligatorios"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:132
+msgid "Continue to payment"
+msgstr "Continuar al pago"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:536 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1262
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:762
+msgid "Card Details"
+msgstr "Detalles de la tarjeta"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:547 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1273
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:773
+msgid "Address Verification Result"
+msgstr "Resultado de la verificación de dirección"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:556 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1282
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:782
+msgid "Card Security Code Result"
+msgstr "Resultado del código de seguridad de la tarjeta"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:574 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1305
+msgid "Payment via %s : %s."
+msgstr "Pago a través de %s : %s."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:581 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:642
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1301 ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:803
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:818
+msgid "%s Transaction ID: %s"
+msgstr "ID de transacción %s: %s"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:645 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1651
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:821
+msgid "Payment authorized. Change payment status to processing or complete to capture funds."
+msgstr "Pago autorizado. Cambia el estado del pago a procesando o completo para capturar los fondos."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1003
+msgid "Refunded %1$s - Refund ID: %2$s"
+msgstr "Reembolsado %1$s - ID de reembolso: %2$s"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1174
+msgid "An error occurred while updating the order."
+msgstr "Ocurrió un error al actualizar el pedido."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1326
+msgid "Payment Gateway for PayPal on WooCommerce: %s"
+msgstr "Pasarela de Pago para PayPal en WooCommerce: %s"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1327
+msgid "WooCommerce Version: %s"
+msgstr "Versión de WooCommerce: %s"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1654
+msgid "Payment pending (%s)."
+msgstr "Pago pendiente (%s)."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:1834
+msgid "Sorry, your session has expired."
+msgstr "Lo siento, tu sesión ha expirado."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-request.php:2039
+msgid "This payment was unable to be processed successfully. Please try again with another payment method."
+msgstr "Este pago no pudo ser procesado con éxito. Por favor intenta de nuevo con otro método de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:56 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:469
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:84
+msgid "Enable PayPal Checkout"
+msgstr "Habilitar PayPal Checkout"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:85
+msgid "Check this box to enable the payment gateway. Leave unchecked to disable it."
+msgstr "Marca esta casilla para habilitar la pasarela de pago. Deja sin marcar para deshabilitarla."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:104
+msgid "Account Settings"
+msgstr "Configuración de la cuenta"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:110
+msgid "PayPal sandbox"
+msgstr "Sandbox de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:112
+msgid "Enable PayPal sandbox"
+msgstr "Habilitar el sandbox de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:114
+msgid ""
+"Check this box to enable test mode so that all transactions will hit PayPal’s sandbox server instead of the live server. This should only be used during development as no "
+"real transactions will occur when this is enabled."
+msgstr ""
+"Marca esta casilla para habilitar el modo de prueba para que todas las transacciones se realicen en el servidor sandbox de PayPal en lugar del servidor en vivo. Esto solo "
+"debe usarse durante el desarrollo, ya que no ocurrirán transacciones reales cuando esto esté habilitado."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:118
+msgid ""
+"PayPal REST API Details &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" href=\"https://developer.paypal.com/"
+"dashboard/applications/live\" style=\"text-decoration: none;\">Get a PayPal Live Client ID and Secret</a>"
+msgstr ""
+"Detalles de la API REST de PayPal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" href=\"https://developer."
+"paypal.com/dashboard/applications/live\" style=\"text-decoration: none;\">Obtén un ID de cliente y un secreto en vivo de PayPal</a>"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:122
+msgid "PayPal Client ID"
+msgstr "ID de cliente de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:124
+msgid "Enter your PayPal Client ID."
+msgstr "Ingresa tu ID de cliente de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:129
+msgid "PayPal Secret"
+msgstr "Secreto de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:131
+msgid "Enter your PayPal Secret."
+msgstr "Ingresa tu secreto de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:136
+msgid ""
+"PayPal REST API Details &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" href=\"https://developer.paypal.com/"
+"dashboard/applications/sandbox\" style=\"text-decoration: none;\">Get a PayPal Sandbox Client ID and Secret</a>"
+msgstr ""
+"Detalles de la API REST de PayPal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" href=\"https://developer."
+"paypal.com/dashboard/applications/sandbox\" style=\"text-decoration: none;\">Obtén un ID de cliente y un secreto de sandbox de PayPal</a>"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:142
+msgid "Enter your PayPal Sandbox Client ID."
+msgstr "Ingresa tu ID de cliente de sandbox de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:147
+msgid "Sandbox Secret"
+msgstr "Secreto de sandbox"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:149
+msgid "Enter your PayPal Sandbox Secret."
+msgstr "Ingresa tu secreto de sandbox de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:157
+msgid "Smart Payment Buttons Settings"
+msgstr "Configuración de Botones de Pago Inteligentes"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:166
+msgid "Enable the Product specific button settings, and the options set will be applied to the PayPal Smart buttons on your Product pages."
+msgstr ""
+"Habilita la configuración de botones específicos del producto, y las opciones establecidas se aplicarán a los botones inteligentes de PayPal en tus páginas de producto."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:174
+msgid "Enable PayPal Smart Button on the Product Pages."
+msgstr "Habilitar el Botón Inteligente de PayPal en las páginas de producto."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:180 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:290
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:400 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:503
+msgid "Hide Funding Method(s)"
+msgstr "Ocultar método(s) de financiación"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:183 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:293
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:403 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:506
+msgid "Funding methods selected here will be hidden from buyers during checkout."
+msgstr "Los métodos de financiación seleccionados aquí se ocultarán a los compradores durante el proceso de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:188 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:298
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:408 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:511
+msgid "PayPal Credit"
+msgstr "Crédito de PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:189 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:299
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:409 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:512
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:190 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:300
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:410 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:513
+msgid "BLIK"
+msgstr "BLIK"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:191 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:301
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:411 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:514
+msgid "eps"
+msgstr "eps"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:192 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:302
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:412 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:515
+msgid "giropay"
+msgstr "giropay"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:193 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:303
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:413 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:516
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:194 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:304
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:414 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:517
+msgid "Mercado Pago"
+msgstr "Mercado Pago"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:195 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:305
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:415 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:518
+msgid "MyBank"
+msgstr "MyBank"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:196 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:306
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:416 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:519
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:197 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:307
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:417 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:520
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:198 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:308
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:418 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:521
+msgid "Sofort"
+msgstr "Sofort"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:199 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:309
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:419 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:522
+msgid "Venmo"
+msgstr "Venmo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:203 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:313
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:423 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:526
+msgid "Button Layout"
+msgstr "Diseño del botón"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:206 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:316
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:426 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:529
+msgid "Select Vertical for stacked buttons, and Horizontal for side-by-side buttons."
+msgstr "Selecciona Vertical para botones apilados, y Horizontal para botones uno al lado del otro."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:210
+msgid "Horizontal (Recommended)"
+msgstr "Horizontal (Recomendado)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:211
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:218 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:328
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:438 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:541
+msgid "Set the color you would like to use for the PayPal button."
+msgstr "Establece el color que deseas usar para el botón de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:222 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:332
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:442 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:545
+msgid "Gold (Recommended)"
+msgstr "Oro (Recomendado)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:225 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:335
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:445 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:548
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:694 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:781 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:867 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:953 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1039 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "White"
+msgstr "Blanco"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:226 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:336
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:446 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:549
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:694 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:781 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:867 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:953 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1039 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "Black"
+msgstr "Negro"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:233 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:343
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:453 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:556
+msgid "Set the shape you would like to use for the buttons."
+msgstr "Establece la forma que deseas usar para los botones."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:237 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:347
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:457 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:560
+msgid "Rect (Recommended)"
+msgstr "Rectangular (Recomendado)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:242 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:352
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:462 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:565
+msgid "Button Label"
+msgstr "Etiqueta del botón"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:245 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:355
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:465 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:568
+msgid "Set the label type you would like to use for the PayPal button."
+msgstr "Establece el tipo de etiqueta que deseas usar para el botón de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:249 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:359
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:572
+msgid "PayPal (Recommended)"
+msgstr "PayPal (Recomendado)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:250 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:360
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:470 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:573
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:251 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:361
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:471 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:574
+msgid "Buy Now"
+msgstr "Comprar ahora"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:252 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:362
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:472 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:575
+msgid "Pay"
+msgstr "Pagar"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:256 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:366
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:476 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:579
+msgid "Tagline"
+msgstr "Lema"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:260 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:370
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:480 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:583
+msgid "Enable tagline"
+msgstr "Habilitar lema"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:262 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:372
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:482 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:585
+msgid "Add the tagline. This line will only show up, if you select a horizontal layout."
+msgstr "Agrega el lema. Esta línea solo aparecerá si seleccionas un diseño horizontal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:269
+msgid "Enable the Cart specific button settings, and the options set will be applied to the PayPal buttons on your Cart page."
+msgstr "Habilita la configuración de botones específicos del carrito, y las opciones establecidas se aplicarán a los botones de PayPal en tu página del carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:277
+msgid "Enable PayPal Smart Button on the Cart page."
+msgstr "Habilitar el Botón Inteligente de PayPal en la página del carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:280
+msgid "Optionally override global button settings above and configure buttons specific to Cart page."
+msgstr "Opcionalmente anula las configuraciones de botones globales anteriores y configura botones específicos para la página del carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:286
+msgid "Enable PayPal Smart Button on the Top of the Cart page."
+msgstr "Habilitar el Botón Inteligente de PayPal en la parte superior de la página del carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:320 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:430
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:533
+msgid "Vertical (Recommended)"
+msgstr "Vertical (Recomendado)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:321 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:431
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:534
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:379
+msgid "Enable the checkout specific button settings, and the options set will be applied to the PayPal buttons on your checkout page."
+msgstr "Habilitar la configuración de botones específicos del checkout, y las opciones establecidas se aplicarán a los botones de PayPal en tu página de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:387
+msgid "Enable PayPal Smart Button on the Checkout page."
+msgstr "Habilitar el Botón Inteligente de PayPal en la página de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:390
+msgid "Optionally override global button settings above and configure buttons specific to checkout page."
+msgstr "Opcionalmente anula las configuraciones de botones globales anteriores y configura botones específicos para la página de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:396
+msgid "Enable PayPal Smart Button on the Top of the Checkout page."
+msgstr "Habilitar el Botón Inteligente de PayPal en la parte superior de la página de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:487
+msgid "Mini Cart Page"
+msgstr "Página del Mini Carrito"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:489
+msgid "Enable the Mini Cart specific button settings, and the options set will be applied to the PayPal buttons on your Mini Cart page."
+msgstr "Habilitar la configuración de botones específicos del Mini Carrito, y las opciones establecidas se aplicarán a los botones de PayPal en tu página del Mini Carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:497
+msgid "Enable PayPal Smart Button on the Mini Cart page."
+msgstr "Habilitar el Botón Inteligente de PayPal en la página del Mini Carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:500
+msgid "Optionally override global button settings above and configure buttons specific to Mini Cart page."
+msgstr "Opcionalmente anula las configuraciones de botones globales anteriores y configura botones específicos para la página del Mini Carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:593
+msgid "Order Review Page options"
+msgstr "Opciones de la página de revisión de pedidos"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:599
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:601
+msgid "Set the Page Title value you would like used on the PayPal Checkout order review page."
+msgstr "Establece el valor del Título de la página que deseas usar en la página de revisión de pedidos de PayPal Checkout."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:609
+msgid "Set the Description you would like used on the PayPal Checkout order review page."
+msgstr "Establece la Descripción que deseas usar en la página de revisión de pedidos de PayPal Checkout."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:610 ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:116
+msgid "<strong>You're almost done!</strong><br>Review your information before you place your order."
+msgstr "<strong>¡Casi has terminado!</strong><br>Revisa tu información antes de realizar tu pedido."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:613
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:615
+msgid "Set the Button Text you would like used on the PayPal Checkout order review page."
+msgstr "Establece el Texto del botón que deseas usar en la página de revisión de pedidos de PayPal Checkout."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:623
+msgid "Pay Later Messaging Settings"
+msgstr "Configuraciones del mensaje de Pago Después"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:631
+msgid "Enable Pay Later Messaging"
+msgstr "Habilitar Mensaje de Pago Después"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:637
+msgid "Page Type"
+msgstr "Tipo de página"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:642
+msgid "Home"
+msgstr "Inicio"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:642
+msgid "Category"
+msgstr "Categoría"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:642
+msgid "Product"
+msgstr "Producto"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:642
+msgid "Cart"
+msgstr "Carrito"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:642
+msgid "Payment"
+msgstr "Pago"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:646
+msgid "Home Page"
+msgstr "Página de Inicio"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:652 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:739
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:825 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:911
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:997
+msgid "Layout Type"
+msgstr "Tipo de diseño"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:658 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:745
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:831 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:917
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1003
+msgid "Text Layout"
+msgstr "Diseño de texto"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:658 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:745
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:831 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:917
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1003
+msgid "Flex Layout"
+msgstr "Diseño flexible"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:661 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:748
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:834 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:920
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1006
+msgid "Logo Type"
+msgstr "Tipo de logo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:667 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:754
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:840 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:926
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1012
+msgid "Primary"
+msgstr "Primario"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:667 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:754
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:840 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:926
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1012
+msgid "Alternative"
+msgstr "Alternativo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:667 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:754
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:840 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:926
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1012
+msgid "Inline"
+msgstr "En línea"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:667 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:754
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:840 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:926
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1012
+msgid "None"
+msgstr "Ninguno"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:670 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:757
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:843 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:929
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1015
+msgid "Logo Position"
+msgstr "Posición del logo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:676 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:763
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:849 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:935
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1021
+msgid "Left"
+msgstr "Izquierda"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:676 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:763
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:849 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:935
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1021
+msgid "Right"
+msgstr "Derecha"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:676 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:763
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:849 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:935
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1021
+msgid "Top"
+msgstr "Superior"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:679 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:766
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:852 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:938
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1024
+msgid "Text Size"
+msgstr "Tamaño del texto"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "10 px"
+msgstr "10 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "11 px"
+msgstr "11 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "12 px"
+msgstr "12 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "13 px"
+msgstr "13 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "14 px"
+msgstr "14 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "15 px"
+msgstr "15 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:685 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:772
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:858 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:944
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1030
+msgid "16 px"
+msgstr "16 px"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:688 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:775
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:861 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:947
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1033
+msgid "Text Color"
+msgstr "Color del texto"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:694 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:781 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:867 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:953 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1039 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "Monochrome"
+msgstr "Monocromo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:694 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:781 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:867 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:953 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1039 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "Grayscale"
+msgstr "Escala de grises"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:697 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:784
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:870 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:956
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1042
+msgid "Color"
+msgstr "Color"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "White (No Border)"
+msgstr "Blanco (Sin borde)"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:703 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:790
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:876 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:962
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1048
+msgid "Gray"
+msgstr "Gris"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:706 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:793
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:879 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:965
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1051
+msgid "Ratio"
+msgstr "Proporción"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:712 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:799
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:885 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:971
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1057
+msgid "Flexes between 120px and 300px wide"
+msgstr "Se adapta entre 120px y 300px de ancho"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:712 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:799
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:885 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:971
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1057
+msgid "160px wide"
+msgstr "160px de ancho"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:712 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:799
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:885 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:971
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1057
+msgid "Flexes between 250px and 768px wide"
+msgstr "Se adapta entre 250px y 768px de ancho"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:712 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:799
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:885 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:971
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1057
+msgid "Flexes between 250px and 1169px wide"
+msgstr "Se adapta entre 250px y 1169px de ancho"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:716
+msgid "I need a shortcode so that I can place the message in a better spot on Home page."
+msgstr "Necesito un shortcode para poder colocar el mensaje en un lugar mejor en la página de inicio."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:723 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:810
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:896 ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:982
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1068
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:732
+msgid "Category Page"
+msgstr "Página de Categoría"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:803
+msgid "I need a shortcode so that I can place the message in a better spot on category page."
+msgstr "Necesito un shortcode para poder colocar el mensaje en un lugar mejor en la página de categoría."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:889
+msgid "I need a shortcode so that I can place the message in a better spot on product page."
+msgstr "Necesito un shortcode para poder colocar el mensaje en un lugar mejor en la página del producto."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:975
+msgid "I need a shortcode so that I can place the message in a better spot on cart page."
+msgstr "Necesito un shortcode para poder colocar el mensaje en un lugar mejor en la página del carrito."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:991
+msgid "Payment Page"
+msgstr "Página de Pago"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1061
+msgid "I need a shortcode so that I can place the message in a better spot on payment page."
+msgstr "Necesito un shortcode para poder colocar el mensaje en un lugar mejor en la página de pago."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1079
+msgid "Advanced Card Processing"
+msgstr "Procesamiento de Tarjetas Avanzado"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1087
+msgid "Enable advanced credit and debit card payments"
+msgstr "Habilitar pagos avanzados con tarjeta de crédito y débito"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1092
+msgid "Advanced Credit Cards Title"
+msgstr "Título de Tarjetas de Crédito Avanzadas"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1099
+msgid "Disable specific credit cards"
+msgstr "Deshabilitar tarjetas de crédito específicas"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1104
+msgid "By default all possible credit cards will be accepted. You can disable some cards, if you wish."
+msgstr "Por defecto, se aceptarán todas las tarjetas de crédito posibles. Puedes deshabilitar algunas tarjetas si lo deseas."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1111
+msgid "Contingency for 3D Secure"
+msgstr "Contingencia para 3D Secure"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1115
+msgid "3D Secure when required"
+msgstr "3D Secure cuando sea necesario"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1116
+msgid "Always trigger 3D Secure"
+msgstr "Siempre activar 3D Secure"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1120
+msgid ""
+"3D Secure benefits cardholders and merchants by providing an additional layer of verification using Verified by Visa, MasterCard SecureCode and American Express SafeKey."
+msgstr ""
+"3D Secure beneficia a los titulares de tarjetas y comerciantes al proporcionar una capa adicional de verificación utilizando Verified by Visa, MasterCard SecureCode y "
+"American Express SafeKey."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1126
+msgid "Advanced Settings"
+msgstr "Configuraciones Avanzadas"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1142
+msgid "The type of landing page to show on the PayPal site for customer checkout. PayPal Account Optional must be checked for this option to be used."
+msgstr ""
+"El tipo de página de destino que se mostrará en el sitio de PayPal para el pago del cliente. La opción Cuenta de PayPal Opcional debe estar marcada para que esta opción "
+"se utilice."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1143
+msgid "Login"
+msgstr "Inicio de sesión"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1144
+msgid "Billing"
+msgstr "Facturación"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1145
+msgid "No Preference"
+msgstr "Sin Preferencia"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1150
+msgid "Instant Payments "
+msgstr "Pagos Instantáneos "
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1160
+msgid "Send Item Details"
+msgstr "Enviar Detalles del Artículo"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1161
+msgid "Send line item details to PayPal"
+msgstr "Enviar detalles de línea a PayPal"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1163
+msgid "Include all line item details in the payment request to PayPal so that they can be seen from the PayPal transaction details page."
+msgstr "Incluir todos los detalles de línea en la solicitud de pago a PayPal para que puedan verse desde la página de detalles de transacción de PayPal."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1167
+msgid "Payment action"
+msgstr "Acción de pago"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1179
+msgid "Invoice prefix"
+msgstr "Prefijo de factura"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1186
+msgid "Enable/Disable coupons"
+msgstr "Habilitar/Deshabilitar cupones"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1188
+msgid "Enable the use of coupon codes"
+msgstr "Habilitar el uso de códigos de cupón"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1189
+msgid "Coupons can be applied from the order review."
+msgstr "Los cupones se pueden aplicar desde la revisión del pedido."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1193
+msgid "Credit Card Statement Name"
+msgstr "Nombre en el estado de cuenta de la tarjeta de crédito"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1195
+msgid "The value entered here will be displayed on the buyer's credit card statement."
+msgstr "El valor ingresado aquí se mostrará en el estado de cuenta de la tarjeta de crédito del comprador."
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1201
+msgid "Debug log"
+msgstr "Registro de depuración"
+
+#: ppcp/includes/class-ppcp-paypal-checkout-for-woocommerce-settings.php:1205
+msgid ""
+"Log PayPal events, such as Webhook, Payment, Refund inside %s Note: this may log personal information. We recommend using this for debugging purposes only and deleting "
+"the logs when finished."
+msgstr ""
+"Registrar eventos de PayPal, como Webhook, Pago, Reembolso dentro de %s Nota: esto puede registrar información personal. Recomendamos usar esto solo para propósitos de "
+"depuración y eliminar los registros cuando hayas terminado."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:234
+msgid "BUYER_COMPLAINT: The payer initiated a dispute for this captured payment with PayPal."
+msgstr "QUEJA_DEL_COMPRADOR: El pagador inició una disputa por este pago capturado con PayPal."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:237
+msgid ""
+"CHARGEBACK: The captured funds were reversed in response to the payer disputing this captured payment with the issuer of the financial instrument used to pay for this "
+"captured payment."
+msgstr ""
+"RECLAMO: Los fondos capturados fueron revertidos en respuesta a que el pagador disputó este pago capturado con el emisor del instrumento financiero utilizado para pagar "
+"por este pago capturado."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:240
+msgid "ECHECK: The payer paid by an eCheck that has not yet cleared."
+msgstr "CHEQUE_ELECTRÓNICO: El pagador pagó mediante un cheque electrónico que aún no se ha liquidado."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:243
+msgid "INTERNATIONAL_WITHDRAWAL: Visit your online account. In your **Account Overview**, accept and deny this payment."
+msgstr "RETIRO_INTERNACIONAL: Visita tu cuenta en línea. En tu **Resumen de Cuenta**, acepta y niega este pago."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:246
+msgid "No additional specific reason can be provided. For more information about this captured payment, visit your account online or contact PayPal."
+msgstr "No se puede proporcionar ninguna razón específica adicional. Para más información sobre este pago capturado, visita tu cuenta en línea o contacta a PayPal."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:249
+msgid "PENDING_REVIEW: The captured payment is pending manual review."
+msgstr "REVISIÓN_PENDIENTE: El pago capturado está pendiente de revisión manual."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:252
+msgid ""
+"RECEIVING_PREFERENCE_MANDATES_MANUAL_ACTION: The payee has not yet set up appropriate receiving preferences for their account. For more information about how to accept or "
+"deny this payment, visit your account online. This reason is typically offered in scenarios such as when the currency of the captured payment is different from the "
+"primary holding currency of the payee."
+msgstr ""
+"PREFERENCIA_DE_RECEPCIÓN_REQUIERE_ACCIONES_MANUALES: El beneficiario aún no ha configurado las preferencias de recepción apropiadas para su cuenta. Para más información "
+"sobre cómo aceptar o denegar este pago, visita tu cuenta en línea. Esta razón se ofrece típicamente en escenarios como cuando la moneda del pago capturado es diferente de "
+"la moneda principal del beneficiario."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:255
+msgid "REFUNDED: The captured funds were refunded."
+msgstr "REEMBOLSADO: Los fondos capturados fueron reembolsados."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:258
+msgid "TRANSACTION_APPROVED_AWAITING_FUNDING: The payer must send the funds for this captured payment. This code generally appears for manual EFTs."
+msgstr ""
+"TRANSACCIÓN_APROBADA_EN_ESPERA_DE_FINANCIAMIENTO: El pagador debe enviar los fondos para este pago capturado. Este código generalmente aparece para transferencias "
+"bancarias manuales."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:261
+msgid "UNILATERAL: The payee does not have a PayPal account."
+msgstr "UNILATERAL: El beneficiario no tiene una cuenta de PayPal."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:264
+msgid "VERIFICATION_REQUIRED: The payee's PayPal account is not verified."
+msgstr "VERIFICACIÓN_REQUERIDA: La cuenta de PayPal del beneficiario no está verificada."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:272
+msgid "Payment via %s Pending. PayPal Pending reason: %s."
+msgstr "Pago a través de %s Pendiente. Razón de la pendiente de PayPal: %s."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:275
+msgid "Payment via %s declined. PayPal declined reason: %s."
+msgstr "Pago a través de %s rechazado. Razón del rechazo de PayPal: %s."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:280
+msgid "Payment via %s partially refunded. PayPal reason: %s."
+msgstr "Pago a través de %s parcialmente reembolsado. Razón de PayPal: %s."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:283
+msgid "Payment via %s refunded. PayPal reason: %s."
+msgstr "Pago a través de %s reembolsado. Razón de PayPal: %s."
+
+#: ppcp/includes/ppcp-paypal-checkout-for-woocommerce-function.php:285
+msgid "Payment via %s failed. PayPal reason: %s."
+msgstr "Pago a través de %s fallido. Razón de PayPal: %s."
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:311
+msgid "OR"
+msgstr "O"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:502
+msgid "Billing &amp; Shipping"
+msgstr "Facturación y Envío"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:502 ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:504
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:520
+msgid "Edit"
+msgstr "Editar"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:504
+msgid "Billing details"
+msgstr "Detalles de facturación"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:520
+msgid "Shipping details"
+msgstr "Detalles de envío"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:595
+msgid "Create an account?"
+msgstr "¿Crear una cuenta?"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:602
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr "Crea una cuenta ingresando la información a continuación. Si eres un cliente recurrente, inicia sesión en la parte superior de la página."
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:798
+msgid "Payment via %s : %s ."
+msgstr "Pago a través de %s: %s."
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:1064
+msgid "Capture Charge"
+msgstr "Capturar Cargos"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:1191
+msgid "Cancel order"
+msgstr "Cancelar pedido"
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:1247
+msgid "We cannot process your order with the payment information that you provided. Please use an alternate payment method."
+msgstr "No podemos procesar tu pedido con la información de pago que proporcionaste. Por favor, utiliza un método de pago alternativo."
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:1252
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Por favor, inténtalo de nuevo."
+
+#: ppcp/public/class-ppcp-paypal-checkout-for-woocommerce-button-manager.php:1288
+msgid "3D Secure response"
+msgstr "Respuesta de 3D Secure"
+
+#. Plugin URI of the plugin/theme
+msgid "https://profiles.wordpress.org/easypayment"
+msgstr "https://profiles.wordpress.org/easypayment"
+
+#. Description of the plugin/theme
+msgid "Seamlessly enable PayPal payments for WooCommerce. Accept PayPal, Pay Later, cards, wallets, and bank payments—powered by an official PayPal Partner."
+msgstr ""
+"Activa de forma fluida los pagos de PayPal para WooCommerce. Acepta PayPal, Pago Después, tarjetas, billeteras y pagos bancarios, todo impulsado por un socio oficial de "
+"PayPal."
+
+#. Author of the plugin/theme
+msgid "easypayment"
+msgstr "easypayment"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/easypayment/"
+msgstr "https://profiles.wordpress.org/easypayment/"

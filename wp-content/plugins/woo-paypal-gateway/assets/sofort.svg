@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="25px" viewBox="0 0 80 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sofort_acceptancemark_40x25</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sofort_acceptancemark_80x50" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#FFFFFF" x="0.38" y="0.38" width="79.25" height="49.25"></rect>
+            <path d="M79.25,0.75 L79.25,49.25 L0.75,49.25 L0.75,0.75 L79.25,0.75 M80,0 L0,0 L0,50 L80,50 L80,0 Z" id="Shape" fill="#BFBFBF"></path>
+            <g id="Sofort" transform="translate(7.000000, 19.000000)" fill="#EE7F00">
+                <path d="..." id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

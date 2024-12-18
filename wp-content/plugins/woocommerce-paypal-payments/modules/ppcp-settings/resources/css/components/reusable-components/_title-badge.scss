@@ -1,0 +1,19 @@
+.ppcp-r-title-badge{
+	@include font(12, 16, 400);
+	margin-left:12px;
+	padding:4px 8px;
+	border-radius: 2px;
+	white-space: nowrap;
+	&--positive{
+		color:#005C12;
+		background-color: #EDFAEF;
+	}
+	&--negative{
+		color:#5c0000;
+		background-color: #faeded;
+	}
+	&--info{
+		color: #2F2F2F;
+		background-color: #F5F5F5;
+	}
+}
