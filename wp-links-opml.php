@@ -7,7 +7,7 @@
  *
  * This file is not added by default to WordPress theme pages when outputting
  * feed links. It will have to be added manually for browsers and users to pick
- * up that this file exists.
+ * up that this file exists
  *
  * @package WordPress
  */

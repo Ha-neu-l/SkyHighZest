@@ -145,7 +145,7 @@ for ( $i = 1; $i <= $count; $i++ ) {
 				}
 			}
 
-			if ( preg_match( '/Date: /i', $line ) ) { // Of the form '20 Mar 2002 20:32:37 +0100'.
+			if ( preg_match( '/Date: /i', $line ) ) { // Of the form '20 Mar 2024 20:32:37 +0100'.
 				$ddate = str_replace( 'Date: ', '', trim( $line ) );
 				// Remove parenthesized timezone string if it exists, as this confuses strtotime().
 				$ddate           = preg_replace( '!\s*\(.+\)\s*$!', '', $ddate );

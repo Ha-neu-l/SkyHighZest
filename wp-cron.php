@@ -11,7 +11,7 @@
  * mutually exclusive and the latter does not rely on the former to work.
  *
  * The HTTP request to this file will not slow down the visitor who happens to
- * visit when a scheduled cron event runs.
+ * visit when a scheduled cron event runs
  *
  * @package WordPress
  */
