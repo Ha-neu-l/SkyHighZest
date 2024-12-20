@@ -1,6 +1,6 @@
 # <span style=" font-family:Monaco, monospace">SkyHiZest - Projet de site e-commerce </span>
 
-<img src="readMe_assets/home.png" alt="title" style="width:100%;height:300px;">
+<img src="readMe_assets/home.png" alt="title" style="width:100%;height:500px;">
 
 ## **<span style="color: #00BF63; font-family:Calibri">Réalisée Par:</span>**
 <p style="background-color: yellow; color: black; padding: 2px;">Filière: Licence d'excellence_ADIA_2024/2025</p>
@@ -68,9 +68,10 @@ Utilisez les identifiants suivants pour vous connecter à l'administration/Table
 ## <span style="color: #00BF63; font-family:Calibri">Support:</span>
 Pour toute question ou assistance, veuillez contacter :
 
-Email : hajar.growth@gmail.com
-Dépôt GitHub : [SkyHiZest](https://github.com/Ha-neu-l/SkyHighZest.git).
+* Email : hajar.growth@gmail.com
+
+* Dépôt GitHub : [SkyHiZest](https://github.com/Ha-neu-l/SkyHighZest.git).
 
 
 
-Bonne navigation et utilisation de SkyHighZest 🎉!
+Bonne navigation et utilisation de SkyHiZest 🎉!
