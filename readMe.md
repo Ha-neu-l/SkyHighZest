@@ -1,7 +1,7 @@
 # <span style=" font-family:Monaco, monospace">SkyHiZest - Projet de site e-commerce </span>
 
 <img src="readme_assets/home.png" alt="title" style="width:100%;height:300px;">
-
+![alt text](readme_assets/home.png)
 ## **<span style="color: #00BF63; font-family:Calibri">Réalisée Par:</span>**
 <p style="background-color: yellow; color: black; padding: 2px;">Filière: Licence d'excellence_ADIA_2024/2025</p>
 
