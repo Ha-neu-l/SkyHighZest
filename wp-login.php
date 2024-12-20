@@ -83,8 +83,8 @@ function login_header( $title = null, $message = '', $wp_error = null ) {
 	/**
 	 * Filters the title tag content for login page.
 	 *
-	 * @since 4.9.0
-	 *
+	 * @since  4.9.0
+	 * 
 	 * @param string $login_title The page title, with extra context added.
 	 * @param string $title       The original page title.
 	 */
