@@ -1,6 +1,6 @@
 # <span style=" font-family:Monaco, monospace">SkyHiZest - Projet de site e-commerce </span>
 
-<img src="readme_assets/home.png" alt="title" style="width:100%;height:300px;">
+<img src="readMe_assets/home.png" alt="title" style="width:100%;height:300px;">
 
 ## **<span style="color: #00BF63; font-family:Calibri">Réalisée Par:</span>**
 <p style="background-color: yellow; color: black; padding: 2px;">Filière: Licence d'excellence_ADIA_2024/2025</p>
@@ -24,7 +24,7 @@
 * Créer un docier my_projects
 * Créer un docier adia à l'intérieur de my_projects
 
-<img src="readme_assets/path.png" alt="title" style="height:100%;">
+<img src="readMe_assets/path.png" alt="title" style="height:100%;">
 
 #### 2. Configuration de la base de données:
 
@@ -50,7 +50,7 @@ define('DB_HOST', 'localhost');
 #### 3. Installez WordPress en accédant à votre site dans un navigateur : 
 - Lien: **http://localhost/my_projects/adia/SkyHighZest/wp-admin/**
 
-<img src="readme_assets/image.png" alt="title" style="width:100%;height:300px;">
+<img src="readMe_assets/image.png" alt="title" style="width:100%;height:300px;">
 
 Utilisez les identifiants suivants pour vous connecter à l'administration/Tableau de board de WordPress :
 
@@ -60,7 +60,7 @@ Utilisez les identifiants suivants pour vous connecter à l'administration/Table
         Mot de passe : 1HgJRrOIedhKUyJgzB
 
 
-<img src="readme_assets/dash.png" alt="title" style="width:100%;height:300px;">
+<img src="readMe_assets/dash.png" alt="title" style="width:100%;height:300px;">
 
 #### 4. Accéder au site sans connexion au dashboard:
 * Utilisez ce lien: http://localhost/my_projects/adia/SkyHighZest
