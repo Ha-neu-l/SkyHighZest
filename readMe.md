@@ -2,7 +2,7 @@
 
 <img src="readMe_assets/home.png" alt="title" style="width:100%;height:500px;">
 
-## **<span style="color: #00BF63; font-family:Calibri">Réalisée Par:</span>**
+## **<span style="color: #00BF63; font-family:Calibri">Réalisé Par:</span>**
 <p style="background-color: yellow; color: black; padding: 2px;">Filière: Licence d'excellence_ADIA_2024/2025</p>
 
  * Hajar Aafane (Groupe1)
@@ -19,10 +19,10 @@
 
 ## **<span style="color: #00BF63; font-family:Calibri">Installation (Cas Wamp) et Login:</span>**
 
-#### 1. Créer le docier approprié au projet:
-* Accéder au docier www de wamp
-* Créer un docier my_projects
-* Créer un docier adia à l'intérieur de my_projects
+#### 1. Créer le dossier approprié au projet:
+* Accéder au dossier www de wamp
+* Créer un dossier my_projects
+* Créer un dossier adia à l'intérieur de my_projects
 
 <img src="readMe_assets/path.png" alt="title" style="height:100%;">
 
@@ -52,7 +52,7 @@ define('DB_HOST', 'localhost');
 
 <img src="readMe_assets/image.png" alt="title" style="width:100%;height:300px;">
 
-Utilisez les identifiants suivants pour vous connecter à l'administration/Tableau de board de WordPress :
+Utilisez les identifiants suivants pour vous connecter à l'administration/Tableau de bord de WordPress :
 
 * Identifiants Administrateur
 
